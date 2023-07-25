@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ProjectGuid>{8ec26d7c-ffe7-4e70-b657-788aac8b4d6d}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CodeAnalysisRuleSet>Sc.Credits.DrivenAdapters.SqlServer.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CodeAnalysisRuleSet>Sc.Credits.DrivenAdapters.SqlServer.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Utils\**" />
+    <EmbeddedResource Remove="Utils\**" />
+    <None Remove="Utils\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="$(EntityFrameworkCore)" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="$(EntityFrameworkCore)" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="$(EntityFrameworkCore)" />
+    <PackageReference Include="Dapper" Version="$(Dapper)" />
+    <PackageReference Include="SqlKata" Version="$(SqlKata)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Domain\Sc.Credits.Domain.Model\Sc.Credits.Domain.Model.csproj" />
+    <ProjectReference Include="..\..\Helpers\Sc.Credits.Helpers.Commons\Sc.Credits.Helpers.Commons.csproj" />
+    <ProjectReference Include="..\..\Helpers\Sc.Credits.Helpers.ObjectsUtils\Sc.Credits.Helpers.ObjectsUtils.csproj" />
+  </ItemGroup>
+</Project>

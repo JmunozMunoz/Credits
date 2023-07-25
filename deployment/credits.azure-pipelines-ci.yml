@@ -1,0 +1,87 @@
+trigger:
+- develop
+- qa
+- release/*   
+
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: DevOps/code-pipeline-templates
+      ref:  feature/poc-dev-qa-support
+  pipelines:
+      - pipeline: tmpinfra
+        project: Infraestructura
+        source: infraestructura-ci
+      - pipeline: namedvalue
+        project: SC_ScriptHelper
+        source: namedValues-ci
+
+
+pool:
+  vmImage: ubuntu-latest
+name: $(BuildId)_$(date:yyyy-MM-dd)
+
+stages:
+  - stage: build
+    jobs:
+    - template: NetCore/k8s/dnc-k8s-build.yml@templates
+      parameters:
+        BuildScriptNamedValues: true
+        DownloadHelpersArtifacts: true
+        RemoveAppsettings: true
+        CopyFiles: true
+        PruneBuildCache: false
+        buildAndPush: true
+        PublishBuildArtifacts: true
+        
+  - stage: deploy
+    jobs:
+    - template: NetCore/k8s/dnc-k8s-deploy.yml@templates
+      parameters:
+        ReplaceTokens: true
+        applyNamespace: true
+        applyDockerSecret: true
+        subdominioGodaddy: false
+        applyConfigmap: true
+        applyDeployment: true
+        applyService: true
+        applyIngress: false
+        downloadnamedvalue: false
+        CreateUpdateNamesvalue: false
+
+variables:
+  - ${{ if or(eq( variables['Build.SourceBranchName'], 'develop-support' ),or(startsWith(variables['build.sourceBranch'], 'refs/heads/feature/'), eq( variables['Build.SourceBranchName'], 'develop' ))) }}:  
+      - group: k8s-dev
+      - group: can-dnc-back-credits-dev
+      - group: apim-nprd
+      - name: namedValue
+        value: credits-co-development-host
+  - ${{ if or(eq(variables['Build.SourceBranchName'], 'qa-support'), eq( variables['Build.SourceBranchName'], 'qa' ))}}:  
+      - group: k8s-qa
+      - group: can-dnc-back-credits-qa
+      - group: apim-nprd
+      - name: namedValue
+        value: credits-co-qa-host
+  - ${{ if startsWith(variables['build.sourceBranch'], 'refs/heads/release/') }}: 
+      - group: k8s-stg
+      - group: can-dnc-back-credits-stg
+      - group: apim-prd
+      - name: namedValue
+        value: credits-staging-co-host
+  - name: k8.APP_NAME
+    value: can-dnc-back-credits
+  - name: k8.CONTAINER_REPOSITORY
+    value: can-dnc-back-credits
+  - name: k8.APP_NAMESPACE
+    value: nmp-$(k8.ENV)-canales-aliados
+  - name: k8.CONFIG_MAP_NAME
+    value: $(k8.APP_NAME)-config
+  - name: k8.path.configmap
+    value: Sc.Credits/src/Applications/Sc.Credits.AppServices/credits.configmap.yaml
+  - name: k8.path.dockerfile
+    value: $(Build.SourcesDirectory)/Sc.Credits/src/Applications/Sc.Credits.AppServices/Dockerfile
+  - name: k8.path.deployment
+    value: $(agent.builddirectory)/tmpinfra/infraestructura/credinet/deployment.credits.yaml
+  - name: apimruta
+    value: $(agent.builddirectory)/namedvalue/powershell-scripting-helpers/apim/create-update-namesvalue-apim.ps1

@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+    <SonarQubeTestProject>True</SonarQubeTestProject>
+    <ProjectGuid>{0e69e7ea-cbd9-4bdc-91d4-c7cf082c935b}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="reactive-commons-netcore" Version="$(ReactiveCommonsNetCore)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$(MicrosoftNETTestSdkPackageVersion)" />
+    <PackageReference Include="xunit" Version="$(XUnitPackageVersion)" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="$(XUnitPackageVersion)">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Moq" Version="$(Moq)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\src\Domain\Sc.Credits.Domain.Managment\Sc.Credits.Domain.Managment.csproj" />
+    <ProjectReference Include="..\..\..\..\src\Infrastructure\EntryPoints\Sc.Credits.EntryPoints.ServicesBus\Sc.Credits.EntryPoints.ServicesBus.csproj" />
+    <ProjectReference Include="..\..\Helpers\Sc.Credits.Helper.Test\Sc.Credits.Helper.Test.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$(MicrosoftNETTestSdkPackageVersion)" />
+    <PackageReference Include="xunit" Version="$(XUnitPackageVersion)" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="$(XUnitPackageVersion)">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Moq" Version="$(Moq)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Wkhtmltopdf.NetCore" Version="$(WkhtmltopdfNetCore)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\src\Infrastructure\Helpers\Sc.Credits.Helpers.Commons\Sc.Credits.Helpers.Commons.csproj" />
+    <ProjectReference Include="..\..\..\..\src\Infrastructure\Helpers\Sc.Credits.Helpers.ObjectsUtils\Sc.Credits.Helpers.ObjectsUtils.csproj" />
+    <ProjectReference Include="..\Sc.Credits.Helper.Test\Sc.Credits.Helper.Test.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sc.Credits.Domain.Model.Base.Entity&lt;T&gt;">
+    <Position X="38.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Base\Entity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Base.EntityExtensions">
+    <Position X="86.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Base.Master&lt;TEntity&gt;">
+    <Position X="41.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAJAAAAACAAAAAAENAAABAAAIDAAgAAAA=</HashCode>
+      <FileName>Base\Master.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Base.MasterExtensions">
+    <Position X="85" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Base.MasterEvent&lt;TMaster, TEntity&gt;">
+    <Position X="27.75" Y="37.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\MasterUpdateEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.Base64Attachment">
+    <Position X="94" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Common\Base64Attachment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.BlobStorageAttachment">
+    <Position X="95.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Common\BlobStorageAttachment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.EntityGuidEqualityComparer&lt;TEntity&gt;" BaseTypeListCollapsed="true">
+    <Position X="88.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\EntityGuidEqualityComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.MailNotificationRequest">
+    <Position X="83.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAABAAAAgAAAAAAAIAAAIAAAkAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Common\MailNotificationRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.OAuthRequestAutentic">
+    <Position X="88.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAgAAAAAAQAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\OauthRequestAutentic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.OAuthResponseAutentic">
+    <Position X="90.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAEAAAAQAAAAAAAAAAAgA=</HashCode>
+      <FileName>Common\OAuthResponseAutentic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.AttachmentPdf">
+    <Position X="109.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Common\RequestAutentic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.Metadata">
+    <Position X="86.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Common\RequestAutentic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.RequestAutentic">
+    <Position X="126.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAIA=</HashCode>
+      <FileName>Common\RequestAutentic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.ResponseAutentic">
+    <Position X="83.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAACAEAAAAAAAAAAAIAQAAABAAAEA=</HashCode>
+      <FileName>Common\ResponseAutentic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.SmsNotificationRequest">
+    <Position X="85" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAIQAAAAA=</HashCode>
+      <FileName>Common\SmsNotificationRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.TemplateInfo">
+    <Position X="115.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\TemplateInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.TemplateValue">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Common\TemplateValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.Token">
+    <Position X="117" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Common\Token.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.TokenResponse">
+    <Position X="118.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACACAAAAAAAAAAQAAABIEAAAAAAAABAAA=</HashCode>
+      <FileName>Common\TokenResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.UrlTemplateValue">
+    <Position X="7.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\UrlTemplateValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Common.UserInfo">
+    <Position X="124" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Common\UserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Builders.CreditBuilder">
+    <Position X="0.75" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Credits\Builders\CreditBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Builders.CreditCompleteBuilder">
+    <Position X="0.5" Y="33.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>lAAAAAAgIAQAAAAAAAAQAAAAAAAAgAAAAAAAAQAAAgA=</HashCode>
+      <FileName>Credits\Builders\CreditCompleteBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Builders.PaymentMatrixBuilder" BaseTypeListCollapsed="true">
+    <Position X="90.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAIAAAAAAAAgAAAAAAAAgAAIAAAAAAAAEAA=</HashCode>
+      <FileName>Credits\Builders\PaymentMatrixBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Events.AddPaymentMasterEvent">
+    <Position X="26.75" Y="40" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CFAAIAAAABAAAgEQIBAMAAkgAiQBAIoQACAAEiEIAgA=</HashCode>
+      <FileName>Credits\Events\AddPaymentMasterEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Events.CancelCreditMasterEvent">
+    <Position X="29.75" Y="40" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAABAAAAAAAAIIAAIAAAAAAAA=</HashCode>
+      <FileName>Credits\Events\CancelCreditMasterEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Events.CancelPaymentMasterEvent">
+    <Position X="32.75" Y="40" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAABAAAAAAAAAAAAIIAAIAAAAAAAA=</HashCode>
+      <FileName>Credits\Events\CancelPaymentMasterEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Events.UpdateChargesPaymentPlanMasterEvent">
+    <Position X="23" Y="40" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAJAAAAAAAAAAAAIQAAAAAAgAAAA=</HashCode>
+      <FileName>Credits\Events\UpdateChargesPaymentPlanMasterEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.Commands.CreditMasterCommandsFields">
+    <Position X="108" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACEAAAAAAgAAAAIAAAQAAAAAQAAIAAAAAAAAAE=</HashCode>
+      <FileName>Credits\Queries\Commands\CreditMasterCommandsFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.Commands.RequestCancelCreditCommandsFields">
+    <Position X="128" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Queries\Commands\RequestCancelCreditCommandsFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.Commands.RequestCancelPaymentCommandsFields">
+    <Position X="78" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Credits\Queries\Commands\RequestCancelPaymentCommandsFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.Reading.CreditMasterReadingFields">
+    <Position X="109.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAADBAAAAAABAIACAAACAAEAAAACJACAAAAAAAYA=</HashCode>
+      <FileName>Credits\Queries\Reading\CreditMasterReadingFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.Reading.CreditReadingFields">
+    <Position X="95.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAABBAAAAAABIIACAAACAAEAAAAAJACAAAAAAAYA=</HashCode>
+      <FileName>Credits\Queries\Reading\CreditReadingFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.Reading.RequestCancelCreditReadingFields">
+    <Position X="76.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Credits\Queries\Reading\RequestCancelCreditReadingFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.Reading.RequestCancelPaymentReadingFields">
+    <Position X="79.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YABAABAAAAAAAEBAAAAAAACAAAAAAAAIAAAAIAABAIA=</HashCode>
+      <FileName>Credits\Queries\Reading\RequestCancelPaymentReadingFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.Reading.RequestStatusReadingFields">
+    <Position X="81.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Queries\Reading\RequestStatusReadingFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.AuthMethodFields">
+    <Position X="53.25" Y="33.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Queries\AuthMethodFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.CreditFields">
+    <Position X="55.75" Y="33.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CRgBIgFYIBAmVyAAApsYmAxAAIFAAVACCUEBEgAAgAI=</HashCode>
+      <FileName>Credits\Queries\CreditFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.CreditMasterFields">
+    <Position X="6.25" Y="33.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAABAAYAAAAAAIAAAAAEgAiAEMAABBAAAABAAABCSQ=</HashCode>
+      <FileName>Credits\Queries\CreditMasterFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.PaymentTypeFields">
+    <Position X="9" Y="33.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Credits\Queries\PaymentTypeFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.RequestCancelCreditFields">
+    <Position X="16" Y="33.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACIACAAAAAAAQIAAAAAEAgAAQCAAAABAQAAAAAAAQA=</HashCode>
+      <FileName>Credits\Queries\RequestCancelCreditFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.RequestCancelPaymentFields">
+    <Position X="19" Y="33.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACIACAAAAAAAQIAAgAAEAgAAQCAAAABAQAAAAAgAQA=</HashCode>
+      <FileName>Credits\Queries\RequestCancelPaymentFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.RequestStatusFields">
+    <Position X="22" Y="33.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Queries\RequestStatusFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.SourceFields">
+    <Position X="29.75" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Queries\SourceFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.StatusFields">
+    <Position X="32" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Queries\StatusFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.TransactionReferenceFields">
+    <Position X="3.25" Y="31" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Credits\Queries\TransactionReferenceFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Queries.TransactionTypeFields">
+    <Position X="34.25" Y="33.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Queries\TransactionTypeFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.ActiveAndPendingCancellationCreditsRequest">
+    <Position X="94" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\ActiveAndPendingCancellationCreditsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.ActiveAndPendingCancellationPaymentsRequest">
+    <Position X="95.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAIAAAAAAAAAAAEAEAAAQAAAAAAAAAgAAAIAAAA=</HashCode>
+      <FileName>Credits\ActiveAndPendingCancellationPaymentsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.ActiveCreditsRequest">
+    <Position X="97.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAEAAAACAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Credits\ActiveCreditsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.ActivePendingCancellationCreditResponse">
+    <Position X="99.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAQAAYAAAAAAAAAAAAEAQAACAIAAAAAAABgAAgAAA=</HashCode>
+      <FileName>Credits\ActivePendingCancellationCreditResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.ActivePendingCancellationPaymentResponse">
+    <Position X="101" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAQAAEAAAAAABAAEAQAACAAABMAAAAAgAAgAAA=</HashCode>
+      <FileName>Credits\ActivePendingCancellationPaymentResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.AmortizationScheduleAssuranceFee">
+    <Position X="102.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAgAAAAAAAAAAAAEAAAAAAABBAI=</HashCode>
+      <FileName>Credits\AmortizationScheduleAssuranceFee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.AmortizationScheduleFee">
+    <Position X="0.75" Y="21.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgCAgQAAAAAAQAAAAAAAAAEAABAAI=</HashCode>
+      <FileName>Credits\AmortizationScheduleFee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.AmortizationScheduleRequest">
+    <Position X="104.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBADAgAAIAAAABAAAAAQAAAAAIEAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Credits\AmortizationScheduleRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.AmortizationScheduleResponse">
+    <Position X="106.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAgAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEA=</HashCode>
+      <FileName>Credits\AmortizationScheduleResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.AuthMethod">
+    <Position X="23.75" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\AuthMethod.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CalculatedQuery">
+    <Position X="97.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAgAAAAAAAAAAAAAAAAAAACABAAAgICA=</HashCode>
+      <FileName>Credits\CalculatedQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CancelCredit">
+    <Position X="35.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAgAAA=</HashCode>
+      <FileName>Credits\CancelCredit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CancelCreditDetailResponse">
+    <Position X="36" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAABAAAIAAAgAAAAAAAAAIAAAAAABAAAAAAA=</HashCode>
+      <FileName>Credits\CancelCreditDetailResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CancelCreditPaymentResponse">
+    <Position X="102.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAABAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\CancelCreditDetailResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CancelCreditDomainRequest">
+    <Position X="101" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAQAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\CancelCreditDomainRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CancelCreditRequest">
+    <Position X="33.5" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\CancelCreditRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CancelCreditResponse">
+    <Position X="36.25" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAQAAAAAIAAAAAAEAAAACAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Credits\CancelCreditResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CancelPaymentDetailResponse">
+    <Position X="104.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAQAAEAAIIAABAAEAgAACAAJBAAAQAAgAAgAAA=</HashCode>
+      <FileName>Credits\CancelPaymentDetailResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CancelPaymentDomainRequest">
+    <Position X="106.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAACAAAAAAAAAAAAAABAgEAAAAAAAAAA=</HashCode>
+      <FileName>Credits\CancelPaymentDomainRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CancelPaymentRequest">
+    <Position X="108" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAEAgAAAAAABAAAQAAAAAAAAA=</HashCode>
+      <FileName>Credits\CancelPaymentRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CancelPaymentResponse">
+    <Position X="109.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\CancelPaymentResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CancelPayments">
+    <Position X="94" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAgAAA=</HashCode>
+      <FileName>Credits\CancelPayments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CancelPaymentsTransactionRequest">
+    <Position X="95.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAABAAAAAAAQAAABAgAAAAAAAAAIA=</HashCode>
+      <FileName>Credits\CancelPaymentsTransactionRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreateCreditDomainRequest">
+    <Position X="97.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAkAAABMAgAAAAAAAAAAAAAAAAAAJAAAAMQACQAAAAA=</HashCode>
+      <FileName>Credits\CreateCreditDomainRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreateCreditRequest">
+    <Position X="99.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABAAAAAgAQAAAAAAIAEAgAAKAAAAAAAQAAiAABCQQ=</HashCode>
+      <FileName>Credits\CreateCreditRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreateCreditResponse">
+    <Position X="25.5" Y="22.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEQAAQACAAAAAAAEgAAACAAAAAgAAAAgAEgAAA=</HashCode>
+      <FileName>Credits\CreateCreditResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreateCreditTransactionResponse">
+    <Position X="101" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAABAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\CreateCreditTransactionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Credit">
+    <Position X="30" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>+0mysDEOFgkxA2gVkXIUuJ8QQIOCGge6QmIUjTmQCAQ=</HashCode>
+      <FileName>Credits\Credit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreditCustomerMigrationHistoryRequest">
+    <Position X="102.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\CreditCustomerMigrationHistoryRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreditDetailDomainRequest">
+    <Position X="104.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEBAAAAAAAAAABQAAAABIAgAJAAAKEABAAAAQAAIAA=</HashCode>
+      <FileName>Credits\CreditDetailDomainRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreditDetailResponse">
+    <Position X="25.5" Y="17.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CBABAgABIAQAgAAAAAAAiAAAAAEAAEAAAIAAEAUBBAA=</HashCode>
+      <FileName>Credits\CreditDetailResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreditHistoryResponse">
+    <Position X="106.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAQAAcAAAAAAAAAAAAEAAAAAAAAAAAEAABAAAgAAA=</HashCode>
+      <FileName>Credits\CreditHistoryResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreditMaster">
+    <Position X="41" Y="8" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>UpkYEQCMAApx6OQAGDoQCIIwQAAagACwAMmJIQAwCAQ=</HashCode>
+      <FileName>Credits\CreditMaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreditPayment">
+    <Position X="48.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CBAHIQgiIxEAIHSQIQAgADAgACUWAOhwAAACEyEIAAk=</HashCode>
+      <FileName>Credits\CreditPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreditPaymentEventResponse&lt;T&gt;">
+    <Position X="94" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAQAAAgAgAAABAAAIAAAAAA=</HashCode>
+      <FileName>Credits\CreditPaymentEventResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreditScCodeRequest">
+    <Position X="97.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACA=</HashCode>
+      <FileName>Credits\CreditScRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreditStatus">
+    <Position X="24.5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAQAAQAAAAAiBAAAgQEEAAACAAAgAIAAAhgAAgACA=</HashCode>
+      <FileName>Credits\CreditStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreditStatusResponse">
+    <Position X="99.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAQAAAAAgAAAAAQEAAAACAAAAAAAAABgAAgACA=</HashCode>
+      <FileName>Credits\CreditStatusReponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreditTokenCallRequest">
+    <Position X="101" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAEAAAAAAAAAACAAARCAAAAAgAAAAAA=</HashCode>
+      <FileName>Credits\CreditTokenCallRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CreditTokenRequest">
+    <Position X="102.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAACAAABAAAAAAAAABAAA=</HashCode>
+      <FileName>Credits\CreditTokenRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CurrentAmortizationScheduleFee">
+    <Position X="0.5" Y="24.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAEAAAAAAAAAAAAAAAICAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Credits\CurrentAmortizationScheduleFee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CurrentAmortizationScheduleRequest">
+    <Position X="104.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBABIgAAIBAABAAAAgkQAAAAAIVAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Credits\CurrentAmortizationScheduleRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CurrentAmortizationScheduleResponse">
+    <Position X="106.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAgAAIAACBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Credits\CurrentAmortizationScheduleResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.CustomerCreditLimitResponse">
+    <Position X="78" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAABIAgEAAAAAQAAAMAAACAAABEAAAAABA=</HashCode>
+      <FileName>Credits\CustomerCreditLimitResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.DetailedCreditStatus">
+    <Position X="24.5" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAhIgAAIBACBAAAAAEACgAAAKFAAIAAAAAAEAABAAI=</HashCode>
+      <FileName>Credits\DetailedCreditStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.FeeBase">
+    <Position X="0.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Credits\FeeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.FeeStatuses">
+    <Position X="92" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAACAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Credits\FeeStatuses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.GenerateTokenRequest">
+    <Position X="79.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAACAAAAAAAQAAAAAAEAAAAKAAAAAEAAAAgAAAAAA=</HashCode>
+      <FileName>Credits\GenerateTokenRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaidCreditCertificateResponse">
+    <Position X="92" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAAQAEAAAIAAAAAAAQAAACgAAAAAAAAAkAAAAAA=</HashCode>
+      <FileName>Credits\PaidCreditCertificateResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PayCreditsRequest">
+    <Position X="3.75" Y="15.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAQACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\PayCreditsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentCreditMultipleDetail">
+    <Position X="76.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Credits\PaymentCreditMultipleDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentCreditMultipleRequest">
+    <Position X="3.5" Y="12.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIIAEAgAAAAAAAAAAQAAAAAAgAA=</HashCode>
+      <FileName>Credits\PaymentCreditMultipleRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentCreditRequest">
+    <Position X="14.75" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACIIEAgAAAAAAAAAgQAAAAAggAA=</HashCode>
+      <FileName>Credits\PaymentCreditRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentCreditRequestComplete">
+    <Position X="14.5" Y="10.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\PaymentCreditRequestComplete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentCreditResponse">
+    <Position X="78" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAAAAAQEABgJgIAAAAAKAAABAgAAAAhQAgAAI=</HashCode>
+      <FileName>Credits\PaymentCreditResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentDetail">
+    <Position X="79.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAKBgAAgIECAAAAAAVABAAAAJABAAAAAAA=</HashCode>
+      <FileName>Credits\PaymentDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentDomainRequest">
+    <Position X="81.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQACEAAAAAAAAAAEAAAAgAIABAQAAAAA=</HashCode>
+      <FileName>Credits\PaymentDomainRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentFee">
+    <Position X="83.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\PaymentFee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentFeesResponse">
+    <Position X="85" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAACAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Credits\PaymentFeesResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentHistoryResponse">
+    <Position X="86.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQAAcAAAAAAAAABAAEAAAAAAAABIAEAAAAAAgAAA=</HashCode>
+      <FileName>Credits\PaymentHistoryResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentMatrix">
+    <Position X="88.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WIABIBAAEAVAEgSBAAAQAAZgAKACAIAAAAEAERAAAQw=</HashCode>
+      <FileName>Credits\PaymentMatrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentMatrixFee">
+    <Position X="0.5" Y="12.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EQAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAABAAFAAAA=</HashCode>
+      <FileName>Credits\PaymentMatrixFee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentTemplateResponse">
+    <Position X="92" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAQAEEAaCEAgJgKAAAAAIhAApAAAABAAAAAAAI=</HashCode>
+      <FileName>Credits\PaymentTemplateResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentType">
+    <Position X="45.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Credits\PaymentType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PaymentTypeTypes">
+    <Position X="112.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAggAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\PaymentTypeTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PromissoryNoteInfo">
+    <Position X="115.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAQwAQAEAAIAEAgAACAwAAAEkAAgAAAAAAAAABAQA=</HashCode>
+      <FileName>Credits\PromissoryNoteInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PromissoryNotePaymentPlan">
+    <Position X="117.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAACAgCAgQAAAAAAQAAAAAAAAAEAABBAA=</HashCode>
+      <FileName>Credits\PromissoryNotePaymentPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.PromissoryNoteResponse">
+    <Position X="119.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAABAAAA=</HashCode>
+      <FileName>Credits\PromissoryNoteResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.RequestCancelCredit">
+    <Position X="59.75" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CQIQEAAEiAE4ICAABQgBEBAAAADAAAEoEAKAAQAgAgA=</HashCode>
+      <FileName>Credits\RequestCancelCredit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.RequestCancelPayment">
+    <Position X="63.25" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CQIQEAAEiEE4ICAABYgBUhAAAADAAAUoEQKIAQAgAgA=</HashCode>
+      <FileName>Credits\RequestCancelPayment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.RequestStatus">
+    <Position X="70" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAICAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\RequestStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Source">
+    <Position X="4" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Source.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.Status">
+    <Position X="14.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Status.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.TransactionReference">
+    <Position X="120.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Credits\TransactionReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.TransactionType">
+    <Position X="26.75" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\TransactionType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.UpdateCreditExtraFieldsRequest">
+    <Position X="122.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCQQ=</HashCode>
+      <FileName>Credits\UpdateCreditExtraFieldsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Customers.Queries.Commands.CustomerCommandsFields">
+    <Position X="109.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAAAAAEAAAAAAAAAAQAAAACAAABAAAAAAAA=</HashCode>
+      <FileName>Customers\Queries\Commands\CustomerCommandsFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Customers.Queries.Reading.CustomerReadingFields">
+    <Position X="83.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAABBAkAAECAAQIAAUALAACJECABAABBASA=</HashCode>
+      <FileName>Customers\Queries\Reading\CustomerReadingFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Customers.Queries.Reading.ProfileReadingFields">
+    <Position X="114" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Customers\Queries\Reading\ProfileReadingFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Customers.Queries.CustomerFields">
+    <Position X="39.75" Y="33.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAUgURSAABYAgAAAAAAAAACEAAAGAAABBAAEAgAA=</HashCode>
+      <FileName>Customers\Queries\CustomerFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Customers.Queries.ProfileFields">
+    <Position X="45" Y="33.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Customers\Queries\ProfileFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Customers.Customer">
+    <Position X="54" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BGQAArAAHIAACSEREiggBm4EQCoAABC5FBIVAIAUCAM=</HashCode>
+      <FileName>Customers\Customer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Customers.CustomerBuilder">
+    <Position X="108" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAgAAAAAAAAgAAIAAAAAAAAAkA=</HashCode>
+      <FileName>Customers\CustomerBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Customers.CustomerName">
+    <Position X="81.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEAIAAAAAAAACEEAAsAAAAAAAACAAAACABAQIACAAA=</HashCode>
+      <FileName>Customers\CustomerName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Customers.CustomerRequest">
+    <Position X="85" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACUgcQCAAAAAAAAAIAAGAACAAABAAAAAAgAEAgAA=</HashCode>
+      <FileName>Customers\CustomerRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Customers.Profile">
+    <Position X="6.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAAACEA=</HashCode>
+      <FileName>Customers\Profile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Locations.Queries.CityFields">
+    <Position X="11.5" Y="35.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Locations\Queries\CityFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Locations.Queries.LocationFields">
+    <Position X="12.5" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Locations\Queries\LocationFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Locations.Queries.StateFields">
+    <Position X="13.75" Y="35.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Locations\Queries\StateFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Locations.City">
+    <Position X="33.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Locations\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Locations.CityRequest">
+    <Position X="9.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Locations\CityRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Locations.Location">
+    <Position X="34.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Locations\Location.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Locations.LocationRequest">
+    <Position X="10.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Locations\LocationRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Locations.State">
+    <Position X="35.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Locations\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Locations.StateRequest">
+    <Position X="11.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Locations\StateRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Parameters.AppParameters">
+    <Position X="108" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAAAABIAAEABAQgAAAAKQgQAgAAKAAAAAgCAQAIAA=</HashCode>
+      <FileName>Parameters\AppParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Parameters.Parameter">
+    <Position X="51.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAIAAAIAAAAACAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parameters\Parameter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Queries.Extensions.FieldsExtensions">
+    <Position X="78" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Queries\Extensions\FieldsExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Queries.Extensions.IEnumerableFieldExtensions">
+    <Position X="81.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Queries\Extensions\IEnumerableFieldExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Queries.EntityFields">
+    <Position X="31.25" Y="31" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Queries\EntityFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Queries.Field">
+    <Position X="76.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIQAAA=</HashCode>
+      <FileName>Queries\Field.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Queries.Fields">
+    <Position X="31.25" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Queries\Fields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Queries.Table&lt;TFields&gt;">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAQAAgAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Queries\Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Queries.Tables">
+    <Position X="113.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kEEAAAAEAAAAAhiAAAAQAEARgABQQASCAIAAFQEAAIA=</HashCode>
+      <FileName>Queries\Tables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Queries.TableWithAlias&lt;TFields&gt;">
+    <Position X="0.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Queries\TableWithAlias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.Queries.RefinancingApplicationFields">
+    <Position X="24.5" Y="33.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAAAAABAAAAAAAIEAAQAAAAAAAAAAAAAAIAAgAA=</HashCode>
+      <FileName>Refinancings\Queries\RefinancingApplicationFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.CalculateFeesRequest">
+    <Position X="0.75" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Refinancings\CalculateFeesRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.CalculateFeesResponse">
+    <Position X="99.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Refinancings\CalculateFeesResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.CustomerCreditsRequest">
+    <Position X="3.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Refinancings\CustomerCreditsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.CustomerCreditsResponse">
+    <Position X="79.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAABAAAAgAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Refinancings\CustomerCreditsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.CustomerCreditDetailResponse">
+    <Position X="76.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Refinancings\CustomerCreditsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.CustomerRequestBase">
+    <Position X="3.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAQAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Refinancings\CustomerRequestBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.FeeResponse">
+    <Position X="90.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Refinancings\FeeResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.RefinancingApplication">
+    <Position X="57" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAYAAACCAAIAAAAAAIAAABAAIAgACAAAACIAAAAAA=</HashCode>
+      <FileName>Refinancings\RefinancingApplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.RefinancingCreditRequest">
+    <Position X="6" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAgAAAAAAAAIAAAgAAAAAAAAAAQAACAEhAAA=</HashCode>
+      <FileName>Refinancings\RefinancingCreditRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.RefinancingCreditResponse">
+    <Position X="121" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBABBhARIAAAgAAAAAAAiAAAAAEAAEAAAIAAEgQhBAA=</HashCode>
+      <FileName>Refinancings\RefinancingCreditResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.RefinancingDomainRequest">
+    <Position X="122.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAABAAQACGAAAAAAgAAEIAAAAAAIAAAQAAEAA=</HashCode>
+      <FileName>Refinancings\RefinancingDomainRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.RefinancingLog">
+    <Position X="9.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAJEAAAAAABAQAAAQAIEAgAAAAAABABAQAgAAEAAAA=</HashCode>
+      <FileName>Refinancings\RefinancingLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.RefinancingLogDetail">
+    <Position X="17" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgAAAgAAA=</HashCode>
+      <FileName>Refinancings\RefinancingLogDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Refinancings.RefinancingParams">
+    <Position X="124.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAgCAAAAAAAEAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Refinancings\RefinancingParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Sequences.Queries.SequenceFieds">
+    <Position X="27.5" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAQQAAAAAAAA=</HashCode>
+      <FileName>Sequences\Queries\SequenceFieds.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Sequences.Sequence">
+    <Position X="38.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAEAAAAAAAAAAAAQQAAAAAAAA=</HashCode>
+      <FileName>Sequences\Sequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.Queries.Commands.StoreCommandsFields">
+    <Position X="88.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Stores\Queries\Commands\StoreCommandsFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.Queries.Reading.StoreReadingFields">
+    <Position X="92" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAhAIAAAAQAAAEABAAAJEDABAABBASA=</HashCode>
+      <FileName>Stores\Queries\Reading\StoreReadingFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.Queries.AssuranceCompanyFields">
+    <Position X="37" Y="33.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stores\Queries\AssuranceCompanyFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.Queries.BusinessGroupFields">
+    <Position X="42.5" Y="33.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stores\Queries\BusinessGroupFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.Queries.CollectTypeFields">
+    <Position X="47.75" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stores\Queries\CollectTypeFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.Queries.StoreFields">
+    <Position X="50" Y="33.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EBAQQAAFQAAACAAAAAAACgAEAAAAASAAAYAAIAAICAA=</HashCode>
+      <FileName>Stores\Queries\StoreFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.Queries.StoreIdentificationFields">
+    <Position X="58.75" Y="31" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Stores\Queries\StoreIdentificationFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.AssuranceCompany">
+    <Position X="66.75" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stores\AssuranceCompany.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.BusinessGroup">
+    <Position X="73" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Stores\BusinessGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.CollectType">
+    <Position X="12.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stores\CollectType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.Store">
+    <Position X="20.5" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>SURAQgAMIgEEAiGQAAAzIaQEg0NAAAAiCCHSEYQAAJg=</HashCode>
+      <FileName>Stores\Store.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.StoreBuilder">
+    <Position X="86.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAQAAAAgAAAAAgAAAACAAAgAAoAAACAAAAAAA=</HashCode>
+      <FileName>Stores\StoreBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.StoreIdentification">
+    <Position X="90.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Stores\StoreIdentification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Stores.StoreRequest">
+    <Position X="111.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAASAAAEAAAAAAAIAAAAAAYEAAAAASAAAYAAJBAICCA=</HashCode>
+      <FileName>Stores\StoreRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Sc.Credits.Domain.Model.Base.IAggregateRoot">
+    <Position X="87" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\IAggregateRoot.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Base.ICommandRepository&lt;TEntity&gt;">
+    <Position X="11.25" Y="17.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\ICommandRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Base.IReadRepository&lt;TEntity&gt;">
+    <Position X="11.5" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Base\IReadRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Base.ITransactionRepository&lt;TEntity&gt;">
+    <Position X="5.25" Y="19.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\ITransactionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Common.Gateway.IAppParametersRepository">
+    <Position X="71.25" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAQAAAAAAAAICAAAEAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Common\Gateway\IAppParametersRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Common.Gateway.IAutenticRepository">
+    <Position X="73" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Gateway\IAutenticRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Common.Gateway.IBlobStoreRepository">
+    <Position X="74.75" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Gateway\IBlobStoreRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Common.Gateway.INotificationRepository">
+    <Position X="81.75" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Gateway\INotificationRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Common.Gateway.ITokenRepository">
+    <Position X="75" Y="38" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Common\Gateway\ITokenRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Builders.IBuilder&lt;T&gt;">
+    <Position X="15.75" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Builders\IBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Builders.ICreditBuilder">
+    <Position X="12.75" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Builders\ICreditBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Builders.ICreditCompleteBuilder">
+    <Position X="12.5" Y="27.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Builders\ICreditCompleteBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Builders.ICreditDetailBuilder">
+    <Position X="10" Y="25.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Credits\Builders\ICreditDetailBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Builders.ICreditInitBuilder">
+    <Position X="9.5" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Credits\Builders\ICreditInitBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Builders.ICreditMasterBuilder">
+    <Position X="12.5" Y="25.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>hAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Builders\ICreditMasterBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Builders.ICreditPaymentBuilder">
+    <Position X="15" Y="25.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Builders\ICreditPaymentBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Builders.ICreditPostInitBuilder">
+    <Position X="15.75" Y="28" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Builders\ICreditPostInitBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Builders.IPaymentMatrixBasicInfo">
+    <Position X="83.5" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Builders\IPaymentMatrixBasicInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Builders.IPaymentMatrixCreditParametersInfo">
+    <Position X="17.5" Y="25.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Builders\IPaymentMatrixCreditParametersInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Builders.IPaymentMatrixDateInfo">
+    <Position X="21" Y="25.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Credits\Builders\IPaymentMatrixDateInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Gateway.ICreditMasterRepository">
+    <Position X="5" Y="21.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAAAAAAFAQYAABAAAAAAAAAiBAQAAAAAAAABoA=</HashCode>
+      <FileName>Credits\Gateway\ICreditMasterRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Gateway.ICreditNotificationRepository">
+    <Position X="76.5" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\Gateway\ICreditNotificationRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Gateway.ICreditPaymentEventsRepository">
+    <Position X="78.25" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Credits\Gateway\ICreditPaymentEventsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Gateway.IRequestCancelCreditRepository">
+    <Position X="1.5" Y="19.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Credits\Gateway\IRequestCancelCreditRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Credits.Gateway.IRequestCancelPaymentRepository">
+    <Position X="9.25" Y="19.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAAAAAAIAAAgQAAAAAAAAAAAAAAAAAAAEAAAgAA=</HashCode>
+      <FileName>Credits\Gateway\IRequestCancelPaymentRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Customers.Gateway.ICustomerEventsRepository">
+    <Position X="80" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customers\Gateway\ICustomerEventsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Customers.Gateway.ICustomerRepository">
+    <Position X="13.25" Y="19.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Customers\Gateway\ICustomerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Locations.Gateway.ICityRepository">
+    <Position X="19.5" Y="21.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Locations\Gateway\ICityRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Locations.Gateway.ILocationRepository&lt;TEntity&gt;">
+    <Position X="20.5" Y="19.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Locations\Gateway\ILocationRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Locations.Gateway.IStateRepository">
+    <Position X="22" Y="21.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Locations\Gateway\IStateRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Refinancings.Gateway.IRefinancingRepository">
+    <Position X="85.25" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Refinancings\Gateway\IRefinancingRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Sequences.Gateway.ISequenceRepository">
+    <Position X="73.25" Y="38" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Sequences\Gateway\ISequenceRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Model.Stores.Gateway.IStoreRepository">
+    <Position X="16.25" Y="19.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAQICAABAAAIAAAAACAAAAAAgAIAA=</HashCode>
+      <FileName>Stores\Gateway\IStoreRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Sc.Credits.Domain.Model.Enums.AssuranceTypes">
+    <Position X="71.25" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Enums\AssuranceTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sc.Credits.Domain.Model.Enums.AuthMethods">
+    <Position X="73" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Enums\AuthMethods.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sc.Credits.Domain.Model.Enums.CollectTypes">
+    <Position X="74.75" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Enums\CollectTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sc.Credits.Domain.Model.Enums.CustomerStatuses">
+    <Position X="76.5" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAACAAAAAAAAAAAABAIAAAAAAQAAAAAAIAAAAEA=</HashCode>
+      <FileName>Enums\CustomerStatuses.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sc.Credits.Domain.Model.Enums.DownPayments">
+    <Position X="78.25" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAgAQAAAAA=</HashCode>
+      <FileName>Enums\DownPayments.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sc.Credits.Domain.Model.Enums.Frequencies">
+    <Position X="80" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Enums\Frequencies.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sc.Credits.Domain.Model.Enums.PaymentTypes">
+    <Position X="81.75" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgQAAAgEAgAAAAAgAAAAAAQAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\PaymentTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sc.Credits.Domain.Model.Enums.RequestStatuses">
+    <Position X="83.5" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAACAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Enums\RequestStatuses.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sc.Credits.Domain.Model.Enums.SequenceTypes">
+    <Position X="85.25" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\SequenceTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sc.Credits.Domain.Model.Enums.Sources">
+    <Position X="87" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAiAAAACAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Enums\Sources.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sc.Credits.Domain.Model.Enums.Statuses">
+    <Position X="71.25" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAgAAAAgAAgAAAAAAQAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\Statuses.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sc.Credits.Domain.Model.Enums.TransactionTypes">
+    <Position X="74.75" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAFAAAEAAAAAAAIAAAQAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\TransactionTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sc.Credits.Domain.Model.Stores.StoreStatuses">
+    <Position X="73" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAACAAAAAAAgAAAAAACAAAA=</HashCode>
+      <FileName>Stores\StoreStatuses.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

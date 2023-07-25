@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="SonarQube - sc-credinet-back-credits Sonar way" ToolsVersion="16.0">
+  <Include Path="..\..\..\..\..\.sonarlint\sc-credinet-back-creditscsharp.ruleset" Action="Default" />
+  <Include Path="sc.credits.helpers.commons.ruleset" Action="Default" />
+</RuleSet>

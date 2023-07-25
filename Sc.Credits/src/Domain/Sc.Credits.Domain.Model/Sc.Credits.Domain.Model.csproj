@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ProjectGuid>{02c0b29a-a502-4a8a-ab8e-8fd0067e83c7}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.2\Sc.Credits.Domain.Entities.xml</DocumentationFile>
+    <NoWarn>1701;1702; 1591</NoWarn>
+    <CodeAnalysisRuleSet>Sc.Credits.Domain.Model.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\$(NetCoreTargetVersion)\Sc.Credits.Domain.Entities.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <CodeAnalysisRuleSet>Sc.Credits.Domain.Model.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AuthMethods\**" />
+    <EmbeddedResource Remove="AuthMethods\**" />
+    <None Remove="AuthMethods\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Credits\Gateway\ICreditMasterRepository.cs"></None>
+    <None Include="Credits\Credit.cs"></None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.3.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="$(NewtonsoftJson)" />
+    <PackageReference Include="credinet-exception-middleware.models" Version="$(credinetexceptionmiddleware)" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="$(EntityFrameworkCore)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Helpers\Sc.Credits.Helpers.Commons\Sc.Credits.Helpers.Commons.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Helpers\Sc.Credits.Helpers.ObjectsUtils\Sc.Credits.Helpers.ObjectsUtils.csproj" />
+  </ItemGroup>
+</Project>

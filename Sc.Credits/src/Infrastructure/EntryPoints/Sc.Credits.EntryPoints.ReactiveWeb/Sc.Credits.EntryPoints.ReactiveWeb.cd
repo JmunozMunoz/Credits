@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sc.Credits.EntryPoints.ReactiveWeb.Controllers.Base.AppControllerBase&lt;T&gt;">
+    <Position X="6.75" Y="1.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAggAAAAAAIQAAAQAAAEAAIAIQAAEAAAAAAAAAgIA=</HashCode>
+      <FileName>Controllers\Base\AppControllerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ReactiveWeb.Controllers.CancelController">
+    <Position X="5.25" Y="6" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AIAAABAAEABAAAAAAAgAAACACABAAAAABAAAAAAAAIQ=</HashCode>
+      <FileName>Controllers\CancelController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ReactiveWeb.Controllers.CreditController">
+    <Position X="9" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEBAAAMkAAARAEAACAECAIQBAAAFCAASAAAAAIAAA=</HashCode>
+      <FileName>Controllers\CreditController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ReactiveWeb.Controllers.PaymentController">
+    <Position X="2" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAAAAAAAAAgAAAAAAQAABAAgAAAACAAAAAAAAgA=</HashCode>
+      <FileName>Controllers\PaymentController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ReactiveWeb.Controllers.RefinancingController">
+    <Position X="12.25" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAQAAAgEAABAAAAAEAAAAAAA=</HashCode>
+      <FileName>Controllers\RefinancingController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Model.Credits.RejectCreditLimitRequest">
+    <Position X="11.75" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAgAACAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Controllers\RejectCreditLimitRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

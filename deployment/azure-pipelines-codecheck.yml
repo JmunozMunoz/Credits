@@ -1,0 +1,34 @@
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: DevOps/code-pipeline-templates
+      ref: 'develop'
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+- stage: CodeCheck
+  displayName: Code Check
+
+  jobs:
+
+    - template: NetCore/codecheck/dnc-codecheck-v2.yml@templates
+      parameters: 
+        ChangeDotNetVersion: true
+        CreateSonarProject: true
+        ConfigSonarProject: true
+        RunCoverageTests: true
+        CoverageTestsResults: true
+        RunSonarAnalysis: true
+        PublishSonarResults: true
+        PublishCoverageResults: true
+        PublishTestsResults: true
+        ValidateSonarQualityGate: true
+
+variables:
+  - name: dotnetVersion
+    value: 6.0.x  #setear la varsion deseada
+  - name: producto
+    value: Canales

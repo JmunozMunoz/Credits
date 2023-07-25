@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\Domain\Sc.Credits.Domain.Model\Sc.Credits.Domain.Model.csproj" />
+        <ProjectReference Include="..\..\Helpers\Sc.Credits.Helpers.Commons\Sc.Credits.Helpers.Commons.csproj" />
+        <ProjectReference Include="..\..\Helpers\Sc.Credits.Helpers.ObjectsUtils\Sc.Credits.Helpers.ObjectsUtils.csproj" />
+    </ItemGroup>
+</Project>

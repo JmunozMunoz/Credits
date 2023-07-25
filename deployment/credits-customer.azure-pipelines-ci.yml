@@ -1,0 +1,63 @@
+trigger:
+- develop
+- qa
+- release/*   
+
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: DevOps/code-pipeline-templates
+      ref:  feature/poc-dev-qa-support
+  pipelines:
+      - pipeline: tmpinfra
+        project: Infraestructura
+        source: infraestructura-ci
+
+pool:
+  vmImage: ubuntu-latest
+name: $(BuildId)_$(date:yyyy-MM-dd)
+
+stages:
+  - stage: build
+    jobs:
+    - template: NetCore/k8s/dnc-k8s-build.yml@templates
+      parameters:
+        BuildScriptNamedValues: true
+        DownloadHelpersArtifacts: true
+        RemoveAppsettings: true
+        CopyFiles: true
+        PruneBuildCache: false
+        buildAndPush: true
+        PublishBuildArtifacts: true
+        
+  - stage: deploy
+    jobs:
+    - template: NetCore/k8s/dnc-k8s-deploy.yml@templates
+      parameters:
+        ReplaceTokens: true
+        applyNamespace: true
+        applyDockerSecret: true
+        subdominioGodaddy: false
+        applyConfigmap: true
+        applyDeployment: true
+        applyService: true
+        applyIngress: false
+        CreateUpdateNamesvalue: false
+
+variables:
+  - name: k8.path.configmap
+    value: Sc.Credits/src/Applications/Sc.Credits.AppServices.Customers/customers.configmap.yaml
+  - name: k8.path.dockerfile
+    value: $(Build.SourcesDirectory)/Sc.Credits/src/Applications/Sc.Credits.AppServices.Customers/Dockerfile
+  - ${{ if or(eq( variables['Build.SourceBranchName'], 'develop-support' ),or(startsWith(variables['build.sourceBranch'], 'refs/heads/feature/'), eq( variables['Build.SourceBranchName'], 'develop' ))) }}:  
+      - group: k8s-dev
+      - group: can-dnc-back-credits-customers-dev
+  - ${{ if or(eq(variables['Build.SourceBranchName'], 'qa-support'), eq( variables['Build.SourceBranchName'], 'qa' ))}}:  
+      - group: k8s-qa
+      - group: can-dnc-back-credits-customers-qa
+  - ${{ if startsWith(variables['build.sourceBranch'], 'refs/heads/release/') }}: 
+      - group: k8s-stg
+      - group: can-dnc-back-credits-customers-stg
+  - name: k8.APP_NAMESPACE
+    value: nmp-$(k8.ENV)-canales-aliados

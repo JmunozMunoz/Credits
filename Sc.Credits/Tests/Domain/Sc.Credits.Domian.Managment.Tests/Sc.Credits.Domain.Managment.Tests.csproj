@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <SonarQubeTestProject>True</SonarQubeTestProject>
+    <ProjectGuid>{f70febe2-49dc-4dfb-bfb3-75004d3a9f53}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\pdfBase64Resource.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\pdfBase64Resource.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$(MicrosoftNETTestSdkPackageVersion)" />
+    <PackageReference Include="Moq" Version="$(Moq)" />
+    <PackageReference Include="xunit" Version="$(XUnitPackageVersion)" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="$(XUnitPackageVersion)">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="$(MicrosoftExtensionsOptions)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Domain\Sc.Credits.Domain.Managment\Sc.Credits.Domain.Managment.csproj" />
+    <ProjectReference Include="..\..\..\src\Domain\Sc.Credits.Domain.UseCase\Sc.Credits.Domain.UseCase.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Helpers\Sc.Credits.Helper.Test\Sc.Credits.Helper.Test.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Helpers\Sc.Credits.Helpers.ObjectsUtils.Tests\Sc.Credits.Helpers.ObjectsUtils.Tests.csproj" />
+    <ProjectReference Include="..\Sc.Credits.Domain.UseCase.Tests\Sc.Credits.Domain.UseCase.Tests.csproj" />
+  </ItemGroup>
+</Project>

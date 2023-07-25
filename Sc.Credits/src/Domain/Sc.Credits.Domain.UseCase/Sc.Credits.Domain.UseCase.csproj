@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <ProjectGuid>{e22509b0-bff7-419f-b8d9-b0190501465d}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\$(NetCoreTargetVersion)\Sc.Credits.Domain.UseCase.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <CodeAnalysisRuleSet>Sc.Credits.Domain.UseCase.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\$(NetCoreTargetVersion)\Sc.Credits.Domain.UseCase.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <CodeAnalysisRuleSet>Sc.Credits.Domain.UseCase.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Credits\CreditUsesCase.cs"></None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="$(MicrosoftExtensionsOptions)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Helpers\Sc.Credits.Helpers.ObjectsUtils\Sc.Credits.Helpers.ObjectsUtils.csproj" />
+    <ProjectReference Include="..\Sc.Credits.Domain.Model\Sc.Credits.Domain.Model.csproj" />
+  </ItemGroup>
+</Project>

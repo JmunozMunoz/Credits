@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <SonarQubeTestProject>True</SonarQubeTestProject>
+    <ProjectGuid>{a67a5df7-543b-42a1-ae01-66645e7aa83b}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\$(NetCoreTargetVersion)\Sc.Credits.Domain.UseCase.Tests.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <CodeAnalysisRuleSet>Sc.Credits.Domain.UseCase.Tests.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\$(NetCoreTargetVersion)\Sc.Credits.Domain.UseCase.Tests.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <CodeAnalysisRuleSet>Sc.Credits.Domain.UseCase.Tests.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="$(Moq)" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$(MicrosoftNETTestSdkPackageVersion)" />
+    <PackageReference Include="xunit" Version="$(XUnitPackageVersion)" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="$(XUnitRunnerVisualstudio)">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="$(MicrosoftExtensionsOptions)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Domain\Sc.Credits.Domain.UseCase\Sc.Credits.Domain.UseCase.csproj" />
+    <ProjectReference Include="..\..\..\src\Infrastructure\Helpers\Sc.Credits.Helpers.Commons\Sc.Credits.Helpers.Commons.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Helpers\Sc.Credits.Helper.Test\Sc.Credits.Helper.Test.csproj" />
+  </ItemGroup>
+</Project>

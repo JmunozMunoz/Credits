@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>96e64658-ce0f-441b-98a9-629564702a43</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CodeAnalysisRuleSet>Sc.Credits.AppServices.Customers.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CodeAnalysisRuleSet>Sc.Credits.AppServices.Customers.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="$(MicrosoftAspNetCoreAllPackageVersion)" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="$(MicrosoftVisualStudioAzureContainersToolsTargets)" />
+    <PackageReference Include="SC.AdministradorLlaves" Version="$(SCAdministradorLlaves)" />
+    <PackageReference Include="SC.AdministradorLogs" Version="$(SCAdministradorLogs)" />
+    <PackageReference Include="Serilog.AspNetCore" Version="$(SerilogAspNetCore)" />
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="$(SerilogEnrichersEnvironment)" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="$(SerilogSinksConsole)" />
+    <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="$(SerilogSinksElasticsearch)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Sc.Credits.Domain.Managment\Sc.Credits.Domain.Managment.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\Sc.Credits.DrivenAdapters.AzureStorage\Sc.Credits.DrivenAdapters.AzureStorage.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\Sc.Credits.DrivenAdapters.ServiceBus\Sc.Credits.DrivenAdapters.ServiceBus.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\Sc.Credits.DrivenAdapters.SqlServer\Sc.Credits.DrivenAdapters.SqlServer.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\EntryPoints\Sc.Credits.EntryPoints.ServicesBus\Sc.Credits.EntryPoints.ServicesBus.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Helpers\Sc.Credits.Helpers.ObjectsUtils\Sc.Credits.Helpers.ObjectsUtils.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ProjectGuid>{986f2559-a87d-4183-8c62-87d2cbab9b2c}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CodeAnalysisRuleSet>Sc.Credits.EntryPoints.ServicesBus.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CodeAnalysisRuleSet>Sc.Credits.EntryPoints.ServicesBus.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="reactive-commons-netcore" Version="$(ReactiveCommonsNetCore)" />
+    <PackageReference Include="credinet.comun.api" Version="$(credinetComunApi)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Domain\Sc.Credits.Domain.Managment\Sc.Credits.Domain.Managment.csproj" />
+  </ItemGroup>
+</Project>

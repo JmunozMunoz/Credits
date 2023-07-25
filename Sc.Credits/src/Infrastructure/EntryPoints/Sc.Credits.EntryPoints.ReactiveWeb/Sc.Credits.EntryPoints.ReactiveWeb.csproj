@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ProjectGuid>{b5ca42c9-3228-4b31-9430-7bcbf92529f5}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\$(NetCoreTargetVersion)\Sc.Credits.EntryPoints.ReactiveWeb.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <CodeAnalysisRuleSet>Sc.Credits.EntryPoints.ReactiveWeb.Debug.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\$(NetCoreTargetVersion)\Sc.Credits.EntryPoints.ReactiveWeb.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>Sc.Credits.EntryPoints.ReactiveWeb.Release.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="credinet.comun.api" Version="$(credinetComunApi)" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="$(NewtonsoftJson)" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Controllers\V1\CreditController.cs"></None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Domain\Sc.Credits.Domain.Managment\Sc.Credits.Domain.Managment.csproj" />
+    <ProjectReference Include="..\..\..\Domain\Sc.Credits.Domain.Model\Sc.Credits.Domain.Model.csproj" />
+    <ProjectReference Include="..\..\..\Infrastructure\Helpers\Sc.Credits.Helpers.ObjectsUtils\Sc.Credits.Helpers.ObjectsUtils.csproj" />
+  </ItemGroup>
+</Project>

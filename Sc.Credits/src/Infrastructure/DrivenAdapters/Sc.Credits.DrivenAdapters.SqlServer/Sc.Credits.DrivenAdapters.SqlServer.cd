@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.AssuranceCompanyEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="12.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\AssuranceCompanyEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.AuthMethodEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="14.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\AuthMethodEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.BusinessGroupEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="14.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\BusinessGroupEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.CityEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="12.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\CityEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.CollectTypeEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="50.25" Y="12.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\CollectTypeEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.CreditEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="53.25" Y="12.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\CreditEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.CreditMasterEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="52.25" Y="14.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\CreditMasterEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.CreditPaymentEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="55.25" Y="14.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\CreditPaymentEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.CustomerEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="58.5" Y="12.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\CustomerEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.MessageErrorLogEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="58.75" Y="14.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\MessageErrorLogEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.ParameterEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="12.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\ParameterEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.PaymentTypeEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="62" Y="14.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\PaymentTypeEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.ProfileEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="64" Y="12.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\ProfileEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.RefinancingApplicationEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="66.75" Y="12.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\RefinancingApplicationEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.RefinancingLogDetailEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="68.75" Y="14.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\RefinancingLogDetailEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.RefinancingLogEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="70.5" Y="12.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\RefinancingLogEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.RequestCancelCreditEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="17.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\RequestCancelCreditEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.RequestCancelPaymentEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="17.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\RequestCancelPaymentEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.RequestStatusEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="51.5" Y="17.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\RequestStatusEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.SequenceEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="54.5" Y="17.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\SequenceEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.SourceEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="57.25" Y="17.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\SourceEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.StateEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="66.5" Y="17.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\StateEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.StatusEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="69" Y="17.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\StatusEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.StoreEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="19.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\StoreEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.StoreIdentificartionEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="46.75" Y="19.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\StoreIdentificartionEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.TransactionReferencesEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="50.25" Y="19.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\TransactionReferencesEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Configurations.TransactionTypeEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="53.75" Y="19.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\TransactionTypeEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Connection.CreditsSqlConnectionFactory">
+    <Position X="15.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connection\CreditsSqlConnectionFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Connection.MessagingSqlConnectionFactory">
+    <Position X="12" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connection\MessagingSqlConnectionFactorySqlConnectionFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Connection.SqlConnectionFactory">
+    <Position X="14" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAIAAAAAAAAAAA=</HashCode>
+      <FileName>Connection\SqlConnectionFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Dapper.Extensions.SqlMapperExtensions">
+    <Position X="59.75" Y="19.25" Width="2.75" />
+    <NestedTypes>
+      <Delegate Name="Sc.Credits.DrivenAdapters.SqlServer.Dapper.Extensions.SqlMapperExtensions.GetDatabaseTypeDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dapper\Extensions\SqlMapperExtensions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Sc.Credits.DrivenAdapters.SqlServer.Dapper.Extensions.SqlMapperExtensions.TableNameMapperDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dapper\Extensions\SqlMapperExtensions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEIBQAAACIEAAAgAJAAAQABAAAACAAAAAQMAABAAVAA=</HashCode>
+      <FileName>Dapper\Extensions\SqlMapperExtensions.Async.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Dapper.Extensions.SqlServerAdapter" BaseTypeListCollapsed="true">
+    <Position X="63.75" Y="17.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAACAAQAAAAAAAADAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dapper\Extensions\SqlMapperExtensions.Async.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Dapper.Extensions.SqlMapperConstants">
+    <Position X="60" Y="17.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dapper\Extensions\SqlMapperExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Dapper.Map.CreditMapper">
+    <Position X="6.75" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAABAAAAAAASAQABACAAAABAgEAAAiABAAAAEBAAA=</HashCode>
+      <FileName>Dapper\Map\CreditMapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Dapper.Map.CustomerMapper">
+    <Position X="10" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dapper\Map\CustomerMapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Dapper.Map.Mapper">
+    <Position X="5.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Dapper\Map\Mapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Dapper.Map.RequestCancelCreditMapper">
+    <Position X="0.5" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Dapper\Map\RequestCancelCreditMapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Dapper.Map.RequestCancelPaymentMapper">
+    <Position X="3.5" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAKAAAAAAAAAABAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Dapper\Map\RequestCancelPaymentMapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.CommandQuery">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Queries\CommandQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.ReadQuery">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Queries\ReadQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.SqlDelegate&lt;T&gt;">
+    <Position X="71.5" Y="17.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAEAIAACAAAAAAAAACAQAAAAwBCABAAAAkAgAAAAAA=</HashCode>
+      <FileName>Queries\SqlDelegate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.SqlHandlers">
+    <Position X="62" Y="17.25" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.SqlHandlers.GetSingleAsyncHandler&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Queries\SqlHandlers.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.SqlHandlers.GetListAsyncHandler&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Queries\SqlHandlers.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.SqlHandlers.AnyAsyncHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Queries\SqlHandlers.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.SqlHandlers.InsertAsyncHandler&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Queries\SqlHandlers.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.SqlHandlers.ExcecuteAsyncHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Queries\SqlHandlers.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.SqlHandlers.QueryAsyncHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Queries\SqlHandlers.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Queries\SqlHandlers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.SqlQuery">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAQAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Queries\SqlQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Credits.AuthMethodQueries">
+    <Position X="6.25" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Credits\AuthMethodQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Credits.CreditMasterQueries">
+    <Position X="24.25" Y="8.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>RCAAAAAAgAAAAAhMAAACAADAAwIAAAAIABAEAEAAAAI=</HashCode>
+      <FileName>QueriesKata\Credits\CreditMasterQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Credits.CreditQueries">
+    <Position X="14.5" Y="6.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QACAAACAAABAAABAAAAAAAAAAQAAEAAAABAEAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Credits\CreditQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Credits.PaymentTypeQueries">
+    <Position X="18.25" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Credits\PaymentTypeQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Credits.RequestCancelCreditQueries">
+    <Position X="33.5" Y="8.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAAEAA=</HashCode>
+      <FileName>QueriesKata\Credits\RequestCancelCreditQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Credits.RequestCancelPaymentQueries">
+    <Position X="39.75" Y="8.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAEQAQAgAAAAgAAABAAAAABAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Credits\RequestCancelPaymentQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Credits.RequestStatusQueries">
+    <Position X="52.25" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Credits\RequestStatusQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Credits.SourceQueries">
+    <Position X="58.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Credits\SourceQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Credits.StatusQueries">
+    <Position X="61.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Credits\StatusQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Credits.TransactionTypeQueries">
+    <Position X="67" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Credits\TransactionTypeQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Customers.CustomerQueries">
+    <Position X="21.25" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Customers\CustomerQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Customers.ProfileQueries">
+    <Position X="12" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Customers\ProfileQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Extensions.QueryExtensions">
+    <Position X="65" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>QueriesKata\Extensions\QueryExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Locations.CityQueries">
+    <Position X="30.75" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Locations\CityQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Locations.StateQueries">
+    <Position X="37" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Locations\StateQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Parameters.ParameterQueries">
+    <Position X="49.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Parameters\ParameterQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Refinancings.RefinancingApplicationQueries">
+    <Position X="55.25" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Refinancings\RefinancingApplicationQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Sequences.SequenceQueries">
+    <Position X="43.5" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Sequences\SequenceQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Stores.AssuranceCompanyQueries">
+    <Position X="63.75" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Stores\AssuranceCompanyQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Stores.BusinessGroupQueries">
+    <Position X="46.5" Y="8.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Stores\BusinessGroupQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Stores.CollectTypeQueries">
+    <Position X="9.25" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Stores\CollectTypeQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Stores.StoreIdentificationQueries">
+    <Position X="3.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Stores\StoreIdentificationQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Stores.StoreQueries">
+    <Position X="28" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Stores\StoreQueries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.CommandQueries&lt;TFields&gt;">
+    <Position X="34" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\CommandQueries.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Compilers">
+    <Position X="50.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\Compilers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.Queries&lt;TFields&gt;">
+    <Position X="35.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAQAAAAAAAAAgAAEAAAAAAgAA=</HashCode>
+      <FileName>QueriesKata\Queries.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.QueriesCatalog">
+    <Position X="73.75" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEAoAAAAAJAAAQAACAgEAQAAUgADAAHQEAAIA=</HashCode>
+      <FileName>QueriesKata\QueriesCatalog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.QueryResult">
+    <Position X="66.75" Y="14.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueriesKata\QueryResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.QueriesKata.ReadQueries&lt;TFields&gt;">
+    <Position X="36.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>QueriesKata\ReadQueries.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.Base.CommandRepository&lt;TEntity, TFields&gt;">
+    <Position X="20" Y="25.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\Base\CommandRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.Base.LocationRepository&lt;TEntity, TFields&gt;">
+    <Position X="9" Y="27.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\Base\LocationRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.Base.ReadRepository&lt;TEntity, TFields&gt;">
+    <Position X="20" Y="19.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAQAAIAA=</HashCode>
+      <FileName>Repository\Base\ReadRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.Base.SqlCommandRepository&lt;TEntity, TFields&gt;">
+    <Position X="19.75" Y="22.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEEA=</HashCode>
+      <FileName>Repository\Base\SqlCommandRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.Base.SqlReadRepository">
+    <Position X="21.25" Y="17" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\Base\SqlReadRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.Base.SqlRepository">
+    <Position X="20" Y="14.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Repository\Base\SqlRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.Base.TransactionRepository&lt;TEntity, TFields&gt;">
+    <Position X="24" Y="27.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\Base\TransactionRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.AppParametersRepository">
+    <Position X="35.5" Y="19.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEBAAAAAIAQAAAAACABICAEAEAAAAAAAAAgBAAAA=</HashCode>
+      <FileName>Repository\AppParametersRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.CityRepository">
+    <Position X="11" Y="29.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\CityRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.CreditMasterRepository">
+    <Position X="23.75" Y="30" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>QQABACACAAAAFBQYAgBAAAEAAAAAiBAQEAAAFAAABoA=</HashCode>
+      <FileName>Repository\CreditMasterRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.CustomerRepository">
+    <Position X="31.75" Y="27.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAQAAAAEAAAAAACgAAAAAAAAAIAE=</HashCode>
+      <FileName>Repository\CustomerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.MessageLogRepository">
+    <Position X="1.75" Y="17" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\MessageLogRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.RefinancingRepository">
+    <Position X="4.5" Y="17" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAIAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Repository\RefinancingRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.RequestCancelCreditRepository">
+    <Position X="14" Y="27.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAACIAAAAAEBAAQgAAAAAAAAAAAAAAQAAgEAAAAAA=</HashCode>
+      <FileName>Repository\RequestCancelCreditRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.RequestCancelPaymentRepository">
+    <Position X="18.75" Y="27.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAoCIAAAAIABAgQgAAAAAAAAMAAAAAAAAAEAAAgAA=</HashCode>
+      <FileName>Repository\RequestCancelPaymentRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.SequenceRepository">
+    <Position X="38.25" Y="17" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACIAAAAAAAAAACEAAAAAAAA=</HashCode>
+      <FileName>Repository\SequenceRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.StateRepository">
+    <Position X="7.75" Y="29.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\StateRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.Repository.StoreRepository">
+    <Position X="28" Y="27.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ABIAMAAAAAAAAEAAQICAABAAAIAAAAACAAAAACgAIAA=</HashCode>
+      <FileName>Repository\StoreRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.DrivenAdapters.SqlServer.CreditsContext">
+    <Position X="55.75" Y="12.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreditsContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Sc.Credits.DrivenAdapters.SqlServer.Connection.IConnectionFactory">
+    <Position X="9.75" Y="16.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connection\IConnectionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.DrivenAdapters.SqlServer.Connection.ICreditsConnectionFactory">
+    <Position X="11" Y="18.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connection\ICreditsConnectionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.DrivenAdapters.SqlServer.Connection.IMessagingConnectionFactory">
+    <Position X="8" Y="18.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connection\IMessagingConnectionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.DrivenAdapters.SqlServer.Dapper.Extensions.ISqlAdapter">
+    <Position X="57" Y="19.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAACAAQAAAAAAAADAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dapper\Extensions\SqlMapperExtensions.Async.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.ICommandQueries&lt;TFields&gt;">
+    <Position X="13" Y="14.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Queries\ICommandQueries.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.IQueries&lt;TFields&gt;">
+    <Position X="13.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Queries\IQueries.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.DrivenAdapters.SqlServer.Queries.IReadQueries&lt;TFields&gt;">
+    <Position X="13" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Queries\IReadQueries.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

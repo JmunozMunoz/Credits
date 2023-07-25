@@ -1,0 +1,54 @@
+apiVersion: #{k8.API_VERSION}#
+kind: Deployment
+metadata:
+  labels:
+    k8s-app: #{k8.APP_NAME}#
+    environment: #{k8.ASPNETCORE_ENVIRONMENT}#
+    buildId: "#{k8.BUILD_ID}#"
+  name: #{k8.APP_NAME}#
+  namespace: #{k8.APP_NAMESPACE}#
+
+spec:
+  replicas: #{k8.REPLICAS}#
+  selector:
+    matchLabels:
+      k8s-app: #{k8.APP_NAME}#
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        k8s-app: #{k8.APP_NAME}#
+      name: #{k8.APP_NAME}#
+    spec:
+      containers:
+      - image: #{k8.DOCKER_REGISTRY_SERVER_URL}#/#{k8.CONTAINER_REPOSITORY}#:#{k8.BUILD_ID}#
+        env:
+          - name: ASPNETCORE_ENVIRONMENT
+            value: #{k8.ASPNETCORE_ENVIRONMENT}#
+          - name: CREDINET_SUBDOMAIN
+            value: #{App.CREDINET_SUBDOMAIN}#
+          - name: CREDINET_COUNTRY
+            value: #{App.CREDINET_COUNTRY}#
+          - name: TZ
+            value: #{App.TZ}#
+        volumeMounts:
+        - name: config-volume
+          mountPath: /app/config
+        name: #{k8.APP_NAME}#
+        resources:
+          limits:
+            cpu: #{k8.CPU_LIMITS}#
+            memory: #{k8.MEMORY_LIMITS}#
+          requests:
+            cpu: #{k8.CPU_REQUESTS}#
+            memory: #{k8.MEMORY_REQUESTS}#
+      imagePullSecrets:
+      - name: docker-registry
+      volumes:
+      - name: config-volume
+        configMap:
+          name: #{k8.CONFIG_MAP_NAME}#

@@ -1,0 +1,74 @@
+<Project>
+    <PropertyGroup Label="SDK Versions">
+        <NetStandardTargetVersion>netstandard2.0</NetStandardTargetVersion>
+        <NetCoreTargetVersion>netcoreapp2.2</NetCoreTargetVersion>
+        <EntityFrameworkCore>2.2.6</EntityFrameworkCore>
+    </PropertyGroup>
+
+    <PropertyGroup Label="Package Versions">
+        <AutoMapperExtensionsMicrosoftDependencyInjection>6.0.0</AutoMapperExtensionsMicrosoftDependencyInjection>
+        <AutoMapper>8.1.0</AutoMapper>
+        <MicrosoftCodeCoverage>16.0.0</MicrosoftCodeCoverage>
+        <AutoMapperData>3.0.0</AutoMapperData>
+        <credinetexceptionmiddleware>1.0.12237</credinetexceptionmiddleware>
+        <credinetexceptionmiddlewaremodels>1.0.12237</credinetexceptionmiddlewaremodels>
+        <MicrosoftApplicationInsightsAspNetCore>2.7.1</MicrosoftApplicationInsightsAspNetCore>
+        <MicrosoftAspNetCoreAllPackageVersion>2.2.5</MicrosoftAspNetCoreAllPackageVersion>
+        <MicrosoftCodeAnalysisCommon>2.10.0</MicrosoftCodeAnalysisCommon>
+        <NewtonsoftJson>12.0.2</NewtonsoftJson>
+        <MicrosoftAspNetCoreMvcVersioning>3.1.1</MicrosoftAspNetCoreMvcVersioning>
+        <MicrosoftAspNetCoreMvcVersioningApiExplorer>3.1.0</MicrosoftAspNetCoreMvcVersioningApiExplorer>
+        <MicrosoftAspNetCoreFeatures>2.2.0</MicrosoftAspNetCoreFeatures>
+        <MicrosoftAzureKeyVault>3.0.2</MicrosoftAzureKeyVault>
+        <MicrosoftIdentityModelClientsActiveDirectory>4.4.2</MicrosoftIdentityModelClientsActiveDirectory>
+        <MicrosoftAzureStorageFile>9.4.2</MicrosoftAzureStorageFile>
+        <MicrosoftExtensionsHttpPolly>2.2.0</MicrosoftExtensionsHttpPolly>
+		<Polly>6.0.1</Polly>
+        <MicrosoftAzureServiceBus>3.4.0</MicrosoftAzureServiceBus>
+        <SSCDatosRepositorioGenerico>3.0.3</SSCDatosRepositorioGenerico>
+        <SwashbuckleAspNetCore>4.0.1</SwashbuckleAspNetCore>
+        <FluentValidationAspNetCore>8.1.2</FluentValidationAspNetCore>
+        <Moq>4.12.0</Moq>
+        <MSTestTest>1.4.0</MSTestTest>
+        <SCAdministradorLlaves>1.0.3</SCAdministradorLlaves>
+        <SerilogAspNetCore>2.1.1</SerilogAspNetCore>
+        <SCAdministradorLogs>1.0.7989</SCAdministradorLogs>
+        <MongoDBDriver>2.8.1</MongoDBDriver>
+        <MicrosoftAspNetCoreRazorDesign>2.2.0</MicrosoftAspNetCoreRazorDesign>
+        <MicrosoftVisualStudioAzureContainersToolsTargets>1.9.10</MicrosoftVisualStudioAzureContainersToolsTargets>
+        <GenFu>1.5.6</GenFu>
+        <SystemReactive>4.1.3</SystemReactive>
+        <RestSharp>106.6.8</RestSharp>
+        <DomainEvent>1.0.7374</DomainEvent>
+        <credinetComunApi>1.0.14507</credinetComunApi>
+        <ReactiveCommonsNetCore>1.0.15260</ReactiveCommonsNetCore>
+        <SyncfusionHtmlToPdfConverterQtWebKitNetCore>17.2.0.46</SyncfusionHtmlToPdfConverterQtWebKitNetCore>
+        <SyncfusionPdfNetCore>17.2.0.47</SyncfusionPdfNetCore>
+        <MicrosoftAzureStorageBlob>9.4.2</MicrosoftAzureStorageBlob>
+        <MicrosoftExtensionsOptions>2.2.0</MicrosoftExtensionsOptions>
+        <WkhtmltopdfNetCore>2.0.1</WkhtmltopdfNetCore>
+        <MicrosoftExtensionsLoggingConsole>2.2.0</MicrosoftExtensionsLoggingConsole>
+        <RandomTestValues>2.0.5.1</RandomTestValues>
+        <Dapper>2.0.30</Dapper>
+        <SerilogSinksConsole>3.1.1</SerilogSinksConsole>
+        <MicrosoftAspNetWebApiClient>5.2.7</MicrosoftAspNetWebApiClient>
+        <MicrosoftAspNetCoreHostingAbstractions>2.2.0</MicrosoftAspNetCoreHostingAbstractions>
+        <Coravel>3.3.0</Coravel>
+        <SerilogFiltersExpressions>2.1.0</SerilogFiltersExpressions>
+        <SqlKata>2.2.0</SqlKata>
+        <SerilogEnrichersEnvironment>2.1.3</SerilogEnrichersEnvironment>
+        <SerilogSinksElasticsearch>8.4.1</SerilogSinksElasticsearch>
+    </PropertyGroup>
+
+    <PropertyGroup Label="Test Package Versions">
+        <MicrosoftNETTestSdkPackageVersion>16.2.0</MicrosoftNETTestSdkPackageVersion>
+        <FluentAssertionsVersion>5.0.0</FluentAssertionsVersion>
+        <ASPNetCoreTestHostVersion>2.0.1</ASPNetCoreTestHostVersion>
+        <XUnitPackageVersion>2.4.1</XUnitPackageVersion>
+        <XUnitRunnerVisualstudio>2.4.1</XUnitRunnerVisualstudio>
+    </PropertyGroup>
+
+    <PropertyGroup Label="CLI Tools Versions">
+        <DotnetXUnitPackageVersion>2.3.1</DotnetXUnitPackageVersion>
+    </PropertyGroup>
+</Project>

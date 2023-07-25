@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <TargetLatestRuntimePatch>true</TargetLatestRuntimePatch>
+        <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+        <UserSecretsId>e6948e63-8b64-40b0-bb30-623bc0f56f66</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <DockerfileContext>..\..\..\..</DockerfileContext>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+        <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="$(MicrosoftAspNetCoreRazorDesign)" PrivateAssets="All" />
+        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="$(MicrosoftVisualStudioAzureContainersToolsTargets)" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Domain\Sc.Credits.Domain.Managment\Sc.Credits.Domain.Managment.csproj" />
+        <ProjectReference Include="..\..\Domain\Sc.Credits.Domain.Model\Sc.Credits.Domain.Model.csproj" />
+        <ProjectReference Include="..\..\Domain\Sc.Credits.Domain.UseCase\Sc.Credits.Domain.UseCase.csproj" />
+        <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\Sc.Credits.DrivenAdapters.Autentic\Sc.Credits.DrivenAdapters.Autentic.csproj" />
+        <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\Sc.Credits.DrivenAdapters.AzureStorage\Sc.Credits.DrivenAdapters.AzureStorage.csproj" />
+        <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\Sc.Credits.DrivenAdapters.ServiceBus\Sc.Credits.DrivenAdapters.ServiceBus.csproj" />
+        <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\Sc.Credits.DrivenAdapters.SqlServer\Sc.Credits.DrivenAdapters.SqlServer.csproj" />
+        <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\SC.Customer.DrivenAdapter.Http\SC.Credits.DrivenAdapter.Http.csproj" />
+        <ProjectReference Include="..\..\Infrastructure\EntryPoints\Sc.Credits.EntryPoints.Jobs\Sc.Credits.EntryPoints.Jobs.csproj" />
+        <ProjectReference Include="..\..\Infrastructure\EntryPoints\Sc.Credits.EntryPoints.ServicesBus\Sc.Credits.EntryPoints.ServicesBus.csproj" />
+        <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="$(MicrosoftApplicationInsightsAspNetCore)" />
+        <PackageReference Include="SC.AdministradorLogs" Version="$(SCAdministradorLogs)" />
+        <PackageReference Include="SC.AdministradorLlaves" Version="$(SCAdministradorLlaves)" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <ProjectGuid>{30874d15-d3c1-4fa0-8b84-6ed5b48c5475}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\$(NetCoreTargetVersion)\Sc.Credits.Helpers.ObjectsUtils.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <CodeAnalysisRuleSet>Sc.Credits.Helpers.ObjectsUtils.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+    
+    <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="$(NewtonsoftJson)" />
+    </ItemGroup>
+    
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\$(NetCoreTargetVersion)\Sc.Credits.Helpers.ObjectsUtils.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>Sc.Credits.Helpers.ObjectsUtils.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+</Project>

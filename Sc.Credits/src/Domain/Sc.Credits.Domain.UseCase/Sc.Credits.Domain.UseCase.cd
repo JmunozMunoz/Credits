@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sc.Credits.Domain.UseCase.Credits.Strategy.NextFee.MonthlyNextFeeStrategy">
+    <Position X="7.5" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Credits\Strategy\NextFee\MonthlyNextFeeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.UseCase.Credits.Strategy.NextFee.NextFeeStrategy">
+    <Position X="10.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Credits\Strategy\NextFee\NextFeeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.UseCase.Credits.Strategy.NextFee.OrdinaryNextFeeStrategy">
+    <Position X="10.25" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAA=</HashCode>
+      <FileName>Credits\Strategy\NextFee\OrdinaryNextFeeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.UseCase.Credits.Strategy.NextFee.ScBiWeeklyNextFeeStrategy">
+    <Position X="13" Y="11.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAA=</HashCode>
+      <FileName>Credits\Strategy\NextFee\ScBiWeeklyNextFeeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.UseCase.Credits.Strategy.Payment.CreditValueOnlyPaymentStrategy">
+    <Position X="6.25" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Credits\Strategy\Payment\CreditValueOnlyPaymentStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.UseCase.Credits.Strategy.Payment.DownPaymentStrategy">
+    <Position X="0.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Credits\Strategy\Payment\DownPaymentStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.UseCase.Credits.Strategy.Payment.OrdinaryPaymentStrategy">
+    <Position X="3.25" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QBAAAAAAAAAAAQAAAAgAAACQAAACAAgAABAAAQgAQAQ=</HashCode>
+      <FileName>Credits\Strategy\Payment\OrdinaryPaymentStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.UseCase.Credits.Strategy.Payment.PaymentStrategy">
+    <Position X="3.25" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgARCAAAAAAAAgBAAABAAgQIAAAAAAIAA=</HashCode>
+      <FileName>Credits\Strategy\Payment\PaymentStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.UseCase.Credits.CancelUseCase" BaseTypeListCollapsed="true">
+    <Position X="16" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IIAAABAAAACAAQAAAAAAEAAIAAAAAAgABAAAAAAAAAA=</HashCode>
+      <FileName>Credits\CancelUseCase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.UseCase.Credits.CreditPaymentUsesCase" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="3.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>JQAABBAJkAAAAQAABABkEwAQQDAQDAQBGAAAFIAAgEA=</HashCode>
+      <FileName>Credits\CreditPaymentUsesCase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.UseCase.Credits.CreditUsesCase" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="3.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>QAgBAAAEJFIRDRoEACQUYAAMAREABFAARCAQBICCAAg=</HashCode>
+      <FileName>Credits\CreditUsesCase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.UseCase.Customers.CustomerUsesCase" BaseTypeListCollapsed="true">
+    <Position X="9" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customers\CustomerUsesCase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.UseCase.Refinancings.RefinancingUsesCase" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>hACBAgAQAEBAAQAABAAAAAAAEAAAAAAAIAEAAAAIAAA=</HashCode>
+      <FileName>Refinancings\RefinancingUsesCase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.UseCase.Stores.StoreUseCase" BaseTypeListCollapsed="true">
+    <Position X="14" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stores\StoreUseCase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Sc.Credits.Domain.UseCase.Credits.ICancelUseCase">
+    <Position X="0.5" Y="12.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IIAAABAAAACAAAAAAAAAAAAAAAAAAAgABAAAAAAAAAA=</HashCode>
+      <FileName>Credits\ICancelUseCase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.UseCase.Credits.ICreditPaymentUsesCase">
+    <Position X="3.75" Y="12.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAJkAAAAAAAAAAgAwAQADAQDAQBGAAAEIAAgAA=</HashCode>
+      <FileName>Credits\ICreditPaymentUsesCase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.UseCase.Credits.ICreditUsesCase">
+    <Position X="0.5" Y="15.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBAAAEIFARBBIEAAQQAAAAAAEABBAABCAAAIAAAAg=</HashCode>
+      <FileName>Credits\ICreditUsesCase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.UseCase.Customers.ICustomerUsesCase">
+    <Position X="5.75" Y="18.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customers\ICustomerUsesCase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.UseCase.Refinancings.IRefinancingUsesCase">
+    <Position X="3.75" Y="18.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAABAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Refinancings\IRefinancingUsesCase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.UseCase.Stores.IStoreUseCase">
+    <Position X="7.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stores\IStoreUseCase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

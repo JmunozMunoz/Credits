@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <SonarQubeTestProject>True</SonarQubeTestProject>
+    <ProjectGuid>{9f2a94fd-47d2-406e-9c8b-aab159063608}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.2\Sc.Credits.Helper.Test.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RandomTestValues" Version="$(RandomTestValues)" />
+    <PackageReference Include="Moq" Version="$(Moq)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit.runner.visualstudio" Version="$(XUnitPackageVersion)">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <ProjectReference Include="..\..\..\..\src\Domain\Sc.Credits.Domain.Managment\Sc.Credits.Domain.Managment.csproj" />
+    <ProjectReference Include="..\..\..\..\src\Domain\Sc.Credits.Domain.Model\Sc.Credits.Domain.Model.csproj" />
+    <ProjectReference Include="..\..\..\..\src\Infrastructure\DrivenAdapters\Sc.Credits.DrivenAdapters.ServiceBus\Sc.Credits.DrivenAdapters.ServiceBus.csproj" />
+    <ProjectReference Include="..\..\..\..\src\Infrastructure\DrivenAdapters\Sc.Credits.DrivenAdapters.SqlServer\Sc.Credits.DrivenAdapters.SqlServer.csproj" />
+  </ItemGroup>
+</Project>

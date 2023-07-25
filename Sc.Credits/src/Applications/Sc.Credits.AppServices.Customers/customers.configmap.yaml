@@ -1,0 +1,47 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+   name: #{k8.CONFIG_MAP_NAME}# 
+   namespace: #{k8.APP_NAMESPACE}#
+data:
+   appsettings.json: |-
+        {
+            "SqlConnectionString": "#{App.SqlConnectionString}#",
+            "ServiceBusConnectionStringRequest": "#{App.ServiceBusConnectionStringRequest}#",
+            "StorageAccount": "#{App.StorageAccount}#",
+            "AppId": "#{App.AppId}#",
+            "AppSecret": "#{App.AppSecret}#",
+            "BuildVersion": "#{App.BuildVersion}#",
+            "DataBaseCrediNetCredits": "#{App.DataBaseCrediNetCredits}#",
+            "DefaultCountry": "#{App.DefaultCountry}#",
+            "CultureInfo": "#{App.CultureInfo}#",
+            "EventsTopicName": "#{App.EventsTopicName}#",
+            "CreditTopicName": "#{App.CreditTopicName}#",
+            "CreditCustomerMigrationHistoryQueue": "#{App.CreditCustomerMigrationHistoryQueue}#",
+            "EnableEFLoggerFactory": "#{App.EnableEFLoggerFactory}#",
+            "TopicMaxConcurrentCalls": #{App.TopicMaxConcurrentCalls}#,
+            "QueueMaxConcurrentCalls": #{App.QueueMaxConcurrentCalls}#,
+            "DomainName": "#{App.DomainName}#",
+            "MessagingSqlConnectionString": "#{App.MessagingSqlConnectionString}#",
+            "MessagingDatabaseName": "#{App.MessagingDatabaseName}#",
+            "Serilog": {
+                "Using": [ "Serilog.Sinks.Console",  "Serilog.Sinks.Elasticsearch" ],
+                "MinimumLevel": "#{App.SerilogMinimumLevel}#",
+                "WriteTo": [
+                  {
+                    "Name": "Console"
+                  },
+                  {
+                    "Name": "Elasticsearch",
+                    "Args": {
+                      "NodeUris": "#{App.Serilog.Elasticsearch.NodeUris}#",
+                      "IndexFormat": "#{App.Serilog.Elasticsearch.IndexFormat}#"
+                    }
+                  }
+                ],
+                "Enrich": [ "FromLogContext", "WithMachineName", "WithThreadId", "WithExceptionDetails" ],
+                "Properties": {
+                    "Application": "#{App.SerilogApplication}#"
+                }
+            }
+         }   

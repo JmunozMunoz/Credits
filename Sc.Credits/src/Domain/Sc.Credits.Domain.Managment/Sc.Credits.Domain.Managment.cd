@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sc.Credits.Domain.Managment.Services.Common.AppParametersService" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIAIAQAAQAAAAAICAgAAACAAAAAAAgAAAAA=</HashCode>
+      <FileName>Services\Common\AppParametersService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Common.Commons" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAgE=</HashCode>
+      <FileName>Services\Common\Commons.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Common.NotificationService" BaseTypeListCollapsed="true">
+    <Position X="35.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Common\NotificationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Common.StorageService" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Common\StorageService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Common.TemplatesService" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAQAAAAAAAAAAAAAAAAIAAAAAIAAAAAA=</HashCode>
+      <FileName>Services\Common\TemplatesService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Credits.CancelCommons">
+    <Position X="44.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAQAAAAgAAAAAAAA=</HashCode>
+      <FileName>Services\Credits\CancelCommons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Credits.CancelCreditService" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgEBFAAAQAAAAAAgAAIAAAAAAIAAAQAgAAAQBA=</HashCode>
+      <FileName>Services\Credits\CancelCreditService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Credits.CancelPaymentService" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAwEBBAAAQAAAAAAgAAIAAIAAAAAAAVAgAAAQBA=</HashCode>
+      <FileName>Services\Credits\CancelPaymentService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Credits.CreditCommons">
+    <Position X="14.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAABAgABAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Credits\CreditCommons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Credits.CreditCommonsService" BaseTypeListCollapsed="true">
+    <Position X="41.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAICAIAECAAAAAAAAAgAAEgIAEEAAAAIAAAAAAAEA=</HashCode>
+      <FileName>Services\Credits\CreditCommonsService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Credits.CreditCustomerService" BaseTypeListCollapsed="true">
+    <Position X="19.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQEAAAAAAAAIAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Services\Credits\CreditCustomerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Credits.CreditPaymentService" BaseTypeListCollapsed="true">
+    <Position X="38" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AEEQAEgAFFAQgQAABEhAAAAJMAQgQHAAQAQAIBAAQAA=</HashCode>
+      <FileName>Services\Credits\CreditPaymentService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Credits.CreditService" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAgQBFAABQAYAAACUAJMAARUQAAABAAAIIEgRGA=</HashCode>
+      <FileName>Services\Credits\CreditService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Credits.PaymentCommons">
+    <Position X="28.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Services\Credits\PaymentCommons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Credits.SignatureService" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAABAAAAAQACAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Services\Credits\SignatureService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Customers.CustomerService" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAACAAAAAAECAABAAACBAAEAQBAIgAABAAJAAAEAA=</HashCode>
+      <FileName>Services\Customers\CustomerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Locations.LocationService" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAACAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Locations\LocationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Refinancings.RefinancingService" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEAAgABAAAsYAAAAAAEgAMAQEAAAAAAAQICAAAQCA=</HashCode>
+      <FileName>Services\Refinancings\RefinancingService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sc.Credits.Domain.Managment.Services.Stores.StoreService" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAgQAAAAAAAAAAAAIgAAAwAIIAAAAE=</HashCode>
+      <FileName>Services\Stores\StoreService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Common.IAppParametersService">
+    <Position X="0.5" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAIAQAAQAAAAAICAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Services\Common\IAppParametersService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Common.ICommons">
+    <Position X="6.5" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAgE=</HashCode>
+      <FileName>Services\Common\ICommons.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Common.INotificationService">
+    <Position X="12.75" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Common\INotificationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Common.IStorageService">
+    <Position X="16.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Common\IStorageService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Common.ITemplatesService">
+    <Position X="10" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Services\Common\ITemplatesService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Credits.ICancelCreditService">
+    <Position X="2.75" Y="7" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>Services\Credits\ICancelCreditService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Credits.ICancelPaymentService">
+    <Position X="9.25" Y="7" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAgAAAAAAAAAAAAABAgAAAABA=</HashCode>
+      <FileName>Services\Credits\ICancelPaymentService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Credits.ICreditCommonsService">
+    <Position X="6.25" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAICAAAACAAAAAAAAAgAAEgIAEAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Services\Credits\ICreditCommonsService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Credits.ICreditCustomerService">
+    <Position X="0.5" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Credits\ICreditCustomerService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Credits.ICreditPaymentService">
+    <Position X="3" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AEEQAEAAAAAQgAAABABAAAAAIAAgQFAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Credits\ICreditPaymentService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Credits.ICreditService">
+    <Position X="12" Y="9.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAQAAACUAIEAAAEQAAABAAAAIEgAGA=</HashCode>
+      <FileName>Services\Credits\ICreditService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Credits.ISignatureService">
+    <Position X="15" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Credits\ISignatureService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Customers.ICustomerService">
+    <Position X="15.5" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAECAABAAAABAAEAAAAIgAABAAIAAAEAA=</HashCode>
+      <FileName>Services\Customers\ICustomerService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Locations.ILocationService">
+    <Position X="18.25" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Locations\ILocationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Refinancings.IRefinancingService">
+    <Position X="20.5" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAoIAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Refinancings\IRefinancingService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.Domain.Managment.Services.Stores.IStoreService">
+    <Position X="18.75" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAIAAAAAA=</HashCode>
+      <FileName>Services\Stores\IStoreService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

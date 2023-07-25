@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Base.SubscriptionBase&lt;T&gt;">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAAAAAgCAIQBAAAAAAEAAAAAQAAAQhAAAAAgAAAA=</HashCode>
+      <FileName>Base\SubscriptionBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Credits.ActiveCreditsCommandSubscription">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQABAAAAAABAAAAAAQAAAAAAIAAAAAA=</HashCode>
+      <FileName>Credits\ActiveCreditsCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Credits.CreditCommandSubscription">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAEAAAAACAAQAAAAAgAAAAAAA=</HashCode>
+      <FileName>Credits\CreditCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Credits.CreditCreateCommandSubscription">
+    <Position X="20.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAQAAAAQAEAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\CreditCreateCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Credits.CreditCustomerCommandSubscription">
+    <Position X="27.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAIAAAAAAQAAAAAAAAAAAAAEAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\CreditCustomerCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Credits.CreditQueryCommandSubscription">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAQAAAAAAAADAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\CreditQueryCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Credits.CreditsPaymentsSubscription">
+    <Position X="5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAACAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\CreditsPaymentsSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Credits.CreditsSubscriptions">
+    <Position X="7.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAACAAAAAAAAgAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\CreditsSubscriptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Credits.PayCreditsCommandSubscription">
+    <Position X="13.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAAAAAAAAAQAAAAAAAABAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\PayCreditsCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Customer.CustomerCreditLimitUpdateEventSubscription">
+    <Position X="22.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAABAAAAAQAAAAAAAAAIAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer\CustomerCreditLimitUpdateEventSubscription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Customer.CustomerStatusUpdateEventSubscription">
+    <Position X="29.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAQAAAAAAAAAIAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer\CustomerStatusUpdateEventSubscription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Customer.CustomerSubscriptions">
+    <Position X="9.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAACABAAAAQAIAAAAAAgBAAAAAAA=</HashCode>
+      <FileName>Customer\CustomerSubscriptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Customer.CustomerUpdateEventSubscription">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAIAAAAAQAAAEAAAAAAABA=</HashCode>
+      <FileName>Customer\CustomerUpdateEventSubscription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Customer.CustomerUpdateMailMobileEventSubscription">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAIAAAAAQAAAEAAAAAAABA=</HashCode>
+      <FileName>Customer\CustomerUpdateMailMobileEventSubscription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Customer.CustomerUpdateMigrationEventSubscription">
+    <Position X="16" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAIAAAAAQAAAEAAAAAAABA=</HashCode>
+      <FileName>Customer\CustomerUpdateMigrationEventSubscription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Customer.CustomerUpdateStudyEventSubscription">
+    <Position X="25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAIAAAAAQAAAEAAAAAAABA=</HashCode>
+      <FileName>Customer\CustomerUpdateStudyEventSubscription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Model.ChargesRequest">
+    <Position X="1.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAI=</HashCode>
+      <FileName>Model\ChargesRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Model.ChargesUpdatedPaymentPlanValueRequest">
+    <Position X="3.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAgAAI=</HashCode>
+      <FileName>Model\ChargesUpdatedPaymentPlanValueRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Model.UpdatedPaymentPlanValueRequest">
+    <Position X="11" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAgAAA=</HashCode>
+      <FileName>Model\UpdatedPaymentPlanValueRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sc.Credits.EntryPoints.ServicesBus.Store.StoreCommandSubscription">
+    <Position X="18.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAUAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Store\StoreCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Base.ISubscription">
+    <Position X="15" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\ISubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Credits.IActiveCreditsCommandSubscription">
+    <Position X="17.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\IActiveCreditsCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Credits.ICreditCommandSubscription">
+    <Position X="21.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\ICreditCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Credits.ICreditCreateCommandSubscription">
+    <Position X="26.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\ICreditCreateCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Credits.ICreditCustomerCommandSubscription">
+    <Position X="1.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\ICreditCustomerCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Credits.ICreditQueryCommandSubscription">
+    <Position X="6" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\ICreditQueryCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Credits.IPayCreditsCommandSubscription">
+    <Position X="10.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credits\IPayCreditsCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Customer.ICustomerCreditLimitUpdateEventSubscription">
+    <Position X="28.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer\ICustomerCreditLimitUpdateEventSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Customer.ICustomerStatusUpdateEventSubscription">
+    <Position X="3.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer\ICustomerStatusUpdateEventSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Customer.ICustomerUpdateEventSubscription">
+    <Position X="8.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer\ICustomerUpdateEventSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Customer.ICustomerUpdateMailMobileEventSubscription">
+    <Position X="12.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer\ICustomerUpdateMailMobileEventSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Customer.ICustomerUpdateMigrationEventSubscription">
+    <Position X="19.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer\ICustomerUpdateMigrationEventSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Customer.ICustomerUpdateStudyEventSubscription">
+    <Position X="24" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer\ICustomerUpdateStudyEventSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sc.Credits.EntryPoints.ServicesBus.Store.IStoreCommandSubscription">
+    <Position X="15" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Store\IStoreCommandSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

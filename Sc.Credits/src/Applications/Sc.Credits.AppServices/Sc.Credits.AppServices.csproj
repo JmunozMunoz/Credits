@@ -1,0 +1,135 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>Sc.Credits.Applications.AppServices</AssemblyName>
+    <RootNamespace>Sc.Credits.Applications.AppServices</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/3c9d67e5-51ca-4c0b-b99e-f2c7f56257ce/resourcegroups/CredinetInsights/providers/microsoft.insights/components/SC.CREDITS.AppServices</ApplicationInsightsResourceId>
+    <ApplicationInsightsAnnotationResourceId>/subscriptions/3c9d67e5-51ca-4c0b-b99e-f2c7f56257ce/resourcegroups/CredinetInsights/providers/microsoft.insights/components/SC.CREDITS.AppServices</ApplicationInsightsAnnotationResourceId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <ProjectGuid>{65D77E2C-5AA8-4FA1-85F1-21671B8E897E}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\$(NetCoreTargetVersion)\Sc.Credits.Applications.AppServices.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <CodeAnalysisRuleSet>Sc.Credits.AppServices.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\$(NetCoreTargetVersion)\Sc.Credits.Applications.AppServices.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <CodeAnalysisRuleSet>Sc.Credits.AppServices.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Infrastructure\Migrations\20190808164830_NullableFieldsInCredits.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190808164830_NullableFieldsInCredits.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190808181714_NullableFields.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190808181714_NullableFields.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190809223347_CustomerAndProfile.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190809223347_CustomerAndProfile.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190809223720_CustomerAndProfile.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190809223720_CustomerAndProfile.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190821213723_RefactorNames.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190821213723_RefactorNames.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190821215757_NamesRefactor.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190821215757_NamesRefactor.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190910225343_CreditsAnCancelsFixes.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190910225343_CreditsAnCancelsFixes.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190911001202_PaymetTypeIdRequiredInStore.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190911001202_PaymetTypeIdRequiredInStore.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190911001750_RequiredRelationships.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190911001750_RequiredRelationships.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190926133151_CreditsFieldsFixes.cs" />
+    <Compile Remove="Infrastructure\Migrations\20190926133151_CreditsFieldsFixes.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20191002195029_PomissoryNoteFileName.cs" />
+    <Compile Remove="Infrastructure\Migrations\20191002195029_PomissoryNoteFileName.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20191126174001_AddHasArrearsCharge.cs" />
+    <Compile Remove="Infrastructure\Migrations\20191126174001_AddHasArrearsCharge.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20191128142817_ReportsIndexes.cs" />
+    <Compile Remove="Infrastructure\Migrations\20191128142817_ReportsIndexes.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20191218204531_MonthLimitInStore.cs" />
+    <Compile Remove="Infrastructure\Migrations\20191218204531_MonthLimitInStore.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200121160105_8380_MonthAndClusteredIdInCreditMaster.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200121160105_8380_MonthAndClusteredIdInCreditMaster.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200121162454_8380_IgnoreClusteredId.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200121162454_8380_IgnoreClusteredId.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200214210333_UniqueCreditIndex.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200214210333_UniqueCreditIndex.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200217154825_CreditUniqueIndex.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200217154825_CreditUniqueIndex.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200402174317_AddDefaulterColumnInCustomer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200402174317_AddDefaulterColumnInCustomer.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200624000643_MessageErrorLog.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200624000643_MessageErrorLog.Designer.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200624002437_MessageErrorLog.cs" />
+    <Compile Remove="Infrastructure\Migrations\20200624002437_MessageErrorLog.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="credinet-exception-middleware" Version="$(credinetexceptionmiddleware)" />
+    <PackageReference Include="credinet-exception-middleware.models" Version="$(credinetexceptionmiddlewaremodels)" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="$(MicrosoftApplicationInsightsAspNetCore)" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="$(MicrosoftAspNetCoreAllPackageVersion)" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="$(MicrosoftAspNetCoreRazorDesign)" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="$(MicrosoftVisualStudioAzureContainersToolsTargets)" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="$(MicrosoftExtensionsHttpPolly)" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="$(SwashbuckleAspNetCore)" />
+    <PackageReference Include="SC.AdministradorLlaves" Version="$(SCAdministradorLlaves)" />
+    <PackageReference Include="SC.AdministradorLogs" Version="$(SCAdministradorLogs)" />
+    <PackageReference Include="Serilog.AspNetCore" Version="$(SerilogAspNetCore)" />
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="$(SerilogEnrichersEnvironment)" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="$(SerilogSinksConsole)" />
+    <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="$(SerilogSinksElasticsearch)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Sc.Credits.Domain.UseCase\Sc.Credits.Domain.UseCase.csproj" />
+    <ProjectReference Include="..\..\Domain\Sc.Credits.Domain.Managment\Sc.Credits.Domain.Managment.csproj" />
+    <ProjectReference Include="..\..\Domain\Sc.Credits.Domain.Model\Sc.Credits.Domain.Model.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\Sc.Credits.DrivenAdapters.Autentic\Sc.Credits.DrivenAdapters.Autentic.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\Sc.Credits.DrivenAdapters.AzureStorage\Sc.Credits.DrivenAdapters.AzureStorage.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\Sc.Credits.DrivenAdapters.ServiceBus\Sc.Credits.DrivenAdapters.ServiceBus.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\Sc.Credits.DrivenAdapters.SqlServer\Sc.Credits.DrivenAdapters.SqlServer.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\SC.Customer.DrivenAdapter.Http\SC.Credits.DrivenAdapter.Http.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\EntryPoints\Sc.Credits.EntryPoints.ReactiveWeb\Sc.Credits.EntryPoints.ReactiveWeb.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\EntryPoints\Sc.Credits.EntryPoints.ServicesBus\Sc.Credits.EntryPoints.ServicesBus.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Infrastructure\HtmlToPdf\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Program.cs"></None>
+    <None Include="Startup.cs"></None>
+    <None Include="Dockerfile"></None>
+    <None Include="wwwroot\index.html"></None>
+    <None Include="wwwroot\stylesheet.css"></None>
+    <None Include="wwwroot\corelogo.png"></None>
+    <None Include="wwwroot\logosc.jpg"></None>
+    <None Include="wwwroot\LogoColor.png"></None>
+    <None Include="wwwroot\swagger.png"></None>
+    <None Include="wwwroot\swagger.Development.css"></None>
+    <None Include="wwwroot\swagger.Production.css"></None>
+    <None Include="wwwroot\swagger.Staging.css"></None>
+    <None Include="appsettings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Infrastructure\HtmlToPdf\Linux\wkhtmltopdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Infrastructure\HtmlToPdf\Mac\wkhtmltopdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Infrastructure\HtmlToPdf\Windows\wkhtmltopdf.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties appsettings_1json__JsonSchema="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
