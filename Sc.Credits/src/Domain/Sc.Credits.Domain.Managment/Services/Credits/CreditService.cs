@@ -370,10 +370,17 @@ namespace Sc.Credits.Domain.Managment.Services.Credits
         /// <returns></returns>
         public async Task<bool> AllowCreditLimitIncrease(string typeDocument, string idDocument)
         {
-            Customer customer = await _customerService.GetAsync(idDocument, typeDocument,
-                CustomerReadingFields.InformationCustomer);
+            Customer customer = await _customerService.GetAsync(idDocument,
+                                                                typeDocument,
+                                                                CustomerReadingFields.InformationCustomer);
+
+            if (customer is null)
+            {
+                return false;
+            }
 
             return customer.AllowCreditLimitIncrease();
+
         }
 
         /// <summary>
@@ -1328,41 +1335,6 @@ namespace Sc.Credits.Domain.Managment.Services.Credits
             CreditDetailDomainRequest detailRequest = new CreditDetailDomainRequest(customer,
                 store, generateTokenRequest.CreditValue, generateTokenRequest.Frequency, parameters);
             detailRequest.SetFeesByMonths(generateTokenRequest.Months);
-            CreditDetailResponse creditDetails = _creditUsesCase.GetCreditDetails(detailRequest);
-
-            int decimalNumbersRound = parameters.DecimalNumbersRound;
-
-            if (store.GetSendTokenSms && customer.GetSendTokenSms)
-            {
-                string creditTokenSmsNotificationTemplate;
-
-                if (generateTokenRequest.IsRefinancing)
-                {
-                    creditTokenSmsNotificationTemplate = await _templatesService.GetAsync("RefinancingTokenSmsNotificationTemplate.txt");
-                }
-                else
-                {
-                    creditTokenSmsNotificationTemplate = parameters.VirtualSalesTokenSources.Split(",").Contains(generateTokenRequest.Source) ?
-                        await _templatesService.GetAsync("VirtualSalesCreditTokenSmsNotificationTemplate.txt") : await _templatesService.GetAsync("CreditTokenSmsNotificationTemplate.txt");
-                }
-
-                string token = int.Parse(tokenResponse.Token.Value).ToString("00-00-00");
-
-                SmsNotificationRequest smsNotificationRequest = _creditUsesCase.GetTokenSmsNotification(creditTokenSmsNotificationTemplate, customer,
-                    store, creditDetails, generateTokenRequest.Months, generateTokenRequest.Frequency, token, decimalNumbersRound);
-
-                await _creditCommonsService.Commons.Notification.SendSmsAsync(smsNotificationRequest, "NotifySms_CreditToken");
-            }
-
-            if (store.GetSendTokenMail && customer.GetSendTokenMail)
-            {
-                MailNotificationRequest mailNotificationRequest = _creditUsesCase.GetTokenMailNotification(customer, store, creditDetails,
-                    generateTokenRequest.Months, generateTokenRequest.Frequency,
-                    tokenResponse.Token.Value, decimalNumbersRound);
-
-                await _creditCommonsService.Commons.Notification.SendMailAsync(mailNotificationRequest, "NotifyMail_CreditToken");
-            }
-
             return tokenResponse;
         }
 
