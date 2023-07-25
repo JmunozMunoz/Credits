@@ -370,10 +370,17 @@ namespace Sc.Credits.Domain.Managment.Services.Credits
         /// <returns></returns>
         public async Task<bool> AllowCreditLimitIncrease(string typeDocument, string idDocument)
         {
-            Customer customer = await _customerService.GetAsync(idDocument, typeDocument,
-                CustomerReadingFields.InformationCustomer);
+            Customer customer = await _customerService.GetAsync(idDocument,
+                                                                typeDocument,
+                                                                CustomerReadingFields.InformationCustomer);
+
+            if (customer is null)
+            {
+                return false;
+            }
 
             return customer.AllowCreditLimitIncrease();
+
         }
 
         /// <summary>
