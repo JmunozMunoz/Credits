@@ -232,14 +232,11 @@ namespace Sc.Credits.Domain.Managment.Services.Credits
             await TrySendCreditCreationAsync(customer, store, createCreditTransactionResponse, createCreditResponse);
             await TrySendNotificationsCreditCreation(createCreditResponse);
 
-            if (createCreditTransactionResponse.HasPayment)
-            {
-                decimal assuranceTax = parameters.AssuranceTax;
-                int decimalNumbersRound = parameters.DecimalNumbersRound;
+            decimal assuranceTax = parameters.AssuranceTax;
+            int decimalNumbersRound = parameters.DecimalNumbersRound;
 
-                await _creditPaymentService.PaymentCreditNotifyAsync(createCreditTransactionResponse.PaymentCreditResponse, assuranceTax,
-                    decimalNumbersRound);
-            }
+            await _creditPaymentService.PaymentCreditNotifyAsync(createCreditTransactionResponse.PaymentCreditResponse, assuranceTax,
+                decimalNumbersRound);
 
             return createCreditResponse;
         }
