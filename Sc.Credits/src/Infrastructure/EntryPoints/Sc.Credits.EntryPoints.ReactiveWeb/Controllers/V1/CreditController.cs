@@ -296,7 +296,7 @@ namespace Sc.Credits.EntryPoints.ReactiveWeb.Controllers.V1
             await HandleRequestAndLogEventAsync(async () =>
             {
                 await _creditService.ResendCreditsAsync(ids);
-
+                await Console.Out.WriteLineAsync("Hablaloooooooooo");
                 return true;
             },
             string.Join(",", ids));
