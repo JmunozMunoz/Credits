@@ -249,7 +249,7 @@ namespace Sc.Credits.Domain.Managment.Services.Credits
         public async Task CreditCreationNotifyAsync(CreateCreditResponse createCreditResponse)
         {
             WebClient webClient = new WebClient();
-            int decimalNumbersRoundPercentage = 2;
+            int decimalNumbersRoundPercentage = 22;
 
             Customer customer = await _customerService.GetActiveAsync(createCreditResponse.IdDocument, createCreditResponse.TypeDocument,
                 CustomerReadingFields.CreditCreation);
